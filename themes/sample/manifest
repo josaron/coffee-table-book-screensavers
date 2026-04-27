@@ -1,0 +1,24 @@
+# Roku channel manifest
+# -----------------------------------------------------------------------
+# Required icon sizes:
+#   mm_icon_focus_hd  → 336×210 PNG
+#   mm_icon_side_hd   → 108×69  PNG
+#   splash_screen_hd  → 1920×1080 JPEG
+# Content images: 3840×2160 JPEG (4K UHD)
+# -----------------------------------------------------------------------
+
+title=Sample Screensaver
+major_version=1
+minor_version=0
+build_version=1
+
+mm_icon_focus_hd=pkg:/images/icon_focus_hd.png
+mm_icon_side_hd=pkg:/images/icon_side_hd.png
+splash_screen_hd=pkg:/images/splash_hd.jpg
+
+# fhd = 1080p, uhd = 4K — list both so it works on all Roku devices
+ui_resolutions=fhd,uhd
+supports_input_launch=1
+
+# This line registers the channel as a screensaver entry
+screensavers=Sample Screensaver

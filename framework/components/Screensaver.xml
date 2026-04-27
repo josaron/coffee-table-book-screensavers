@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="Screensaver" extends="Scene">
+  <script type="text/brightscript" uri="pkg:/components/Screensaver.brs"/>
+  <children>
+
+    <!-- Black background fills any letterbox gaps -->
+    <Rectangle id="bg" width="3840" height="2160" color="0x000000FF"/>
+
+    <!-- Two poster layers for crossfade: one front, one back -->
+    <Poster id="imgA" width="3840" height="2160" loadDisplayMode="scaleToFit" opacity="0"/>
+    <Poster id="imgB" width="3840" height="2160" loadDisplayMode="scaleToFit" opacity="0"/>
+
+    <!--
+      Crossfade animation: fades the outgoing image out while the incoming
+      image fades in. fieldToInterp is set at runtime so both directions work
+      with a single Animation node.
+    -->
+    <Animation id="crossfade" repeat="false" easeFunction="linear">
+      <FloatFieldInterpolator id="fadeInterpOut" key="[0.0, 1.0]" keyValue="[1.0, 0.0]"/>
+      <FloatFieldInterpolator id="fadeInterpIn"  key="[0.0, 1.0]" keyValue="[0.0, 1.0]"/>
+    </Animation>
+
+  </children>
+</component>
