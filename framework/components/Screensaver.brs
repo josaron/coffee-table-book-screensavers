@@ -21,11 +21,11 @@ sub init()
     m.interpIn  = m.top.findNode("fadeInterpIn")
 
     ' -- caption: size and position proportional to screen height --
-    '    ~27pt / 60px padding at 1080p  →  ~54pt / 120px at 4K
-    fontSize  = Int(m.screenH * 0.025)
+    '    ~33pt / 60px padding at 1080p  →  ~66pt / 120px at 4K
+    fontSize  = Int(m.screenH * 0.030)
     padW      = Int(m.screenH * 0.055)
     padH      = Int(m.screenH * 0.065)
-    shadowOff = Int(fontSize * 0.07)
+    shadowOff = Int(fontSize * 0.12)
 
     m.captionGroup   = m.top.findNode("captionGroup")
     m.captionText    = m.top.findNode("captionText")

@@ -22,7 +22,7 @@
       effect without a background rect. Font size + position set in init().
     -->
     <Group id="captionGroup" opacity="0">
-      <Label id="captionShadow" color="0x000000BB" wrap="false"/>
+      <Label id="captionShadow" color="0x000000EE" wrap="false"/>
       <Label id="captionText"   color="0xFFFFFFFF" wrap="false"/>
     </Group>
 
