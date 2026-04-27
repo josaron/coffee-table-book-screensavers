@@ -25,12 +25,51 @@ mkdir -p "$THEME_DIR/images" "$THEME_DIR/config"
 
 # Download images + write theme.json via Python (always present on macOS)
 python3 - "$MANIFEST" "$THEME_DIR" <<'PYEOF'
-import json, sys, urllib.request, urllib.error, os, time
+import json, sys, urllib.request, urllib.error, os, re, time
 
 manifest_path, theme_dir = sys.argv[1], sys.argv[2]
 
 with open(manifest_path) as f:
     manifest = json.load(f)
+
+TARGET_WIDTH = 3840  # request this width from Wikimedia thumbnail service
+
+def wikimedia_thumbnail_url(url, width=TARGET_WIDTH):
+    """
+    Convert a Wikimedia Commons full-res URL to a thumbnail URL.
+    Full-res: https://upload.wikimedia.org/wikipedia/commons/a/ab/File.jpg
+    Thumb:    https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/File.jpg/3840px-File.jpg
+    Returns original URL unchanged if it doesn't match the pattern.
+    """
+    m = re.match(
+        r'(https://upload\.wikimedia\.org/wikipedia/commons/)([a-f0-9]/[a-f0-9]{2}/)(.*)',
+        url
+    )
+    if not m:
+        return url
+    base, path, fname = m.group(1), m.group(2), m.group(3)
+    # fname may be URL-encoded; use as-is for the thumb path
+    return f"{base}thumb/{path}{fname}/{width}px-{fname}"
+
+def fetch_with_retry(url, dest, retries=3):
+    headers = {
+        "User-Agent": "CoffeeTableBookScreensavers/1.0 (https://github.com/josaron/coffee-table-book-screensavers)"
+    }
+    delay = 5
+    for attempt in range(1, retries + 1):
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=60) as r, open(dest, "wb") as f:
+                f.write(r.read())
+            return True
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < retries:
+                print(f"  rate-limited, waiting {delay}s…", end=" ", flush=True)
+                time.sleep(delay)
+                delay *= 2
+            else:
+                raise
+    return False
 
 images   = manifest["images"]
 success  = []
@@ -38,20 +77,19 @@ failures = []
 
 for i, img in enumerate(images, 1):
     filename = img["filename"]
-    url      = img["url"]
+    raw_url  = img["url"]
+    thumb_url = wikimedia_thumbnail_url(raw_url)
     dest     = os.path.join(theme_dir, "images", filename)
     print(f"[{i:02}/{len(images)}] {filename}", end="  ", flush=True)
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=30) as r, open(dest, "wb") as f:
-            f.write(r.read())
+        fetch_with_retry(thumb_url, dest)
         size_kb = os.path.getsize(dest) // 1024
         print(f"✓  {size_kb} KB")
         success.append({"filename": filename, "caption": img.get("caption", "")})
     except Exception as e:
         print(f"✗  {e}")
-        failures.append({"filename": filename, "url": url, "error": str(e)})
-    time.sleep(0.25)
+        failures.append({"filename": filename, "url": thumb_url, "error": str(e)})
+    time.sleep(2)  # be polite to Wikimedia servers
 
 theme_config = {
     "displayDuration":    manifest.get("displayDuration",    10),

@@ -1,0 +1,167 @@
+{
+  "displayDuration": 12,
+  "transitionDuration": 1.5,
+  "shuffle": true,
+  "images": [
+    {
+      "filename": "001_makhtesh_ramon_aerial.jpg",
+      "caption": "Makhtesh Ramon \u00b7 Aerial View, Negev"
+    },
+    {
+      "filename": "002_makhtesh_ramon_crater.jpg",
+      "caption": "Makhtesh Ramon \u00b7 Crater Floor, Negev"
+    },
+    {
+      "filename": "003_makhtesh_ramon_strata.jpg",
+      "caption": "Rock Strata \u00b7 Makhtesh Ramon"
+    },
+    {
+      "filename": "004_mitzpe_ramon_camel_hill.jpg",
+      "caption": "Camel Hill \u00b7 Mitzpe Ramon, Negev"
+    },
+    {
+      "filename": "005_makhtesh_yeruham.jpg",
+      "caption": "Makhtesh Yeruham \u00b7 Negev Desert"
+    },
+    {
+      "filename": "006_makhtesh_ramon_east_panorama.jpg",
+      "caption": "Makhtesh Ramon \u00b7 Eastern Rim Panorama"
+    },
+    {
+      "filename": "007_ein_avdat_canyon_wide.jpg",
+      "caption": "Ein Avdat Canyon \u00b7 Nahal Zin, Negev"
+    },
+    {
+      "filename": "008_ein_avdat_canyon_walls.jpg",
+      "caption": "Canyon Walls \u00b7 Ein Avdat, Negev Highlands"
+    },
+    {
+      "filename": "009_ein_avdat_pool.jpg",
+      "caption": "Natural Pool \u00b7 Ein Avdat, Nahal Zin"
+    },
+    {
+      "filename": "010_timna_valley.jpg",
+      "caption": "Timna Valley \u00b7 Southern Arava"
+    },
+    {
+      "filename": "011_timna_red_rocks.jpg",
+      "caption": "Red Rock Desert \u00b7 Timna Park"
+    },
+    {
+      "filename": "012_timna_formations.jpg",
+      "caption": "Ancient Rock Formations \u00b7 Timna Park"
+    },
+    {
+      "filename": "013_timna_desert_plain.jpg",
+      "caption": "Desert Plain \u00b7 Timna Park, Arava"
+    },
+    {
+      "filename": "014_eilat_bay_red_sea.jpg",
+      "caption": "Bay of Eilat \u00b7 Red Sea"
+    },
+    {
+      "filename": "015_dead_sea_ein_bokek.jpg",
+      "caption": "Dead Sea \u00b7 Ein Bokek"
+    },
+    {
+      "filename": "016_dead_sea_shore.jpg",
+      "caption": "Dead Sea Shoreline \u00b7 Judean Desert"
+    },
+    {
+      "filename": "017_golan_hamat_gader.jpg",
+      "caption": "Yarmouk Valley \u00b7 Hamat Gader, Golan Heights"
+    },
+    {
+      "filename": "018_golan_sea_of_galilee_view.jpg",
+      "caption": "Sea of Galilee \u00b7 View from Golan Heights"
+    },
+    {
+      "filename": "019_golan_plateau.jpg",
+      "caption": "Golan Heights Plateau \u00b7 Northern Israel"
+    },
+    {
+      "filename": "020_susita_galilee_view.jpg",
+      "caption": "Sea of Galilee \u00b7 View from Susita"
+    },
+    {
+      "filename": "021_north_kinneret_shore.jpg",
+      "caption": "Northern Shore \u00b7 Sea of Galilee"
+    },
+    {
+      "filename": "022_kinneret_shoreline.jpg",
+      "caption": "Kinneret Shoreline \u00b7 Sea of Galilee"
+    },
+    {
+      "filename": "023_ein_gedi_oasis.jpg",
+      "caption": "Ein Gedi Oasis \u00b7 Dead Sea Region"
+    },
+    {
+      "filename": "024_ein_gedi_national_park.jpg",
+      "caption": "Ein Gedi National Park \u00b7 Judean Desert"
+    },
+    {
+      "filename": "025_kibbutz_ein_gedi_valley.jpg",
+      "caption": "Ein Gedi Valley \u00b7 Dead Sea Cliffs"
+    },
+    {
+      "filename": "026_mount_gilboa_jezreel_view.jpg",
+      "caption": "Jezreel Valley \u00b7 View from Mount Gilboa"
+    },
+    {
+      "filename": "027_beit_shean_valley_fields.jpg",
+      "caption": "Agricultural Fields \u00b7 Beit She'an Valley"
+    },
+    {
+      "filename": "028_tirzah_valley_samaria.jpg",
+      "caption": "Nahal Tirtzah \u00b7 Samaria Hills"
+    },
+    {
+      "filename": "029_pekiin_cliff_upper_galilee.jpg",
+      "caption": "Peki'in Cliffs \u00b7 Upper Galilee"
+    },
+    {
+      "filename": "030_pekiin_valley_landscape.jpg",
+      "caption": "Peki'in Valley \u00b7 Upper Galilee Hills"
+    },
+    {
+      "filename": "031_nahal_saar_hermon_foothills.jpg",
+      "caption": "Nahal Saar \u00b7 Hermon Foothills"
+    },
+    {
+      "filename": "032_zikim_mediterranean_beach.jpg",
+      "caption": "Zikim Beach \u00b7 Mediterranean Coast"
+    },
+    {
+      "filename": "033_dor_carmel_coast.jpg",
+      "caption": "Dor Beach \u00b7 Carmel Coast"
+    },
+    {
+      "filename": "034_rosh_hanikra_aerial.jpg",
+      "caption": "Rosh HaNikra White Cliffs \u00b7 Northern Coast"
+    },
+    {
+      "filename": "035_rosh_hanikra_coast.jpg",
+      "caption": "Rosh HaNikra Coastline \u00b7 Western Galilee"
+    },
+    {
+      "filename": "036_ramon_crater_view.jpg",
+      "caption": "Ramon Crater \u00b7 Negev Desert"
+    },
+    {
+      "filename": "037_susita_galilee_panorama.jpg",
+      "caption": "Galilee Panorama \u00b7 Susita Summit"
+    },
+    {
+      "filename": "038_golan_heights_view.jpg",
+      "caption": "Open Landscape \u00b7 Golan Heights"
+    },
+    {
+      "filename": "039_negev_plateau_mitzpe_ramon.jpg",
+      "caption": "Negev Plateau \u00b7 Mitzpe Ramon"
+    },
+    {
+      "filename": "040_timna_park_landscape.jpg",
+      "caption": "Timna Park \u00b7 Arava Valley, Southern Israel"
+    }
+  ]
+}

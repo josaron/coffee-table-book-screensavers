@@ -1,0 +1,409 @@
+{
+  "theme": "israel-natural-beauty",
+  "displayName": "Israel: Natural Beauty",
+  "displayDuration": 12,
+  "transitionDuration": 1.5,
+  "shuffle": true,
+  "images": [
+    {
+      "filename": "001_makhtesh_ramon_aerial.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Israel-2013-Aerial_00-Negev-Makhtesh_Ramon.jpg",
+      "width": 10312,
+      "height": 5179,
+      "caption": "Makhtesh Ramon · Aerial View, Negev",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Godot13",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "002_makhtesh_ramon_crater.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Makhtesh_Ramon%2C_2022_-_Flickr_-_RG_in_TLV.jpg",
+      "width": 3960,
+      "height": 2952,
+      "caption": "Makhtesh Ramon · Crater Floor, Negev",
+      "license": "CC BY 2.0",
+      "attribution": "RG in TLV",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "003_makhtesh_ramon_strata.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Strata_Colors_in_Makhtesh_Ramon.jpg",
+      "width": 3264,
+      "height": 2448,
+      "caption": "Rock Strata · Makhtesh Ramon",
+      "license": "Public Domain",
+      "attribution": "Adam Matan",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "004_mitzpe_ramon_camel_hill.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/CamelHillMitzpeRamonMar262022_01.jpg",
+      "width": 3806,
+      "height": 2795,
+      "caption": "Camel Hill · Mitzpe Ramon, Negev",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Hagai Agmon-Snir",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "005_makhtesh_yeruham.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Makhtesh_Yeruham_2024_-_Flickr_-_RG_TLV.jpg",
+      "width": 3962,
+      "height": 2954,
+      "caption": "Makhtesh Yeruham · Negev Desert",
+      "license": "CC BY 2.0",
+      "attribution": "RG TLV",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "006_makhtesh_ramon_east_panorama.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/East_Side_of_Ramon_Crater_-_Panorama.jpg",
+      "width": 27928,
+      "height": 3439,
+      "caption": "Makhtesh Ramon · Eastern Rim Panorama",
+      "license": "CC0",
+      "attribution": "MinoZig",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "007_ein_avdat_canyon_wide.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Avdat_Schlucht_Ein_Avdat_01.JPG",
+      "width": 4564,
+      "height": 2284,
+      "caption": "Ein Avdat Canyon · Nahal Zin, Negev",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Zairon",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "008_ein_avdat_canyon_walls.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Avdat_Schlucht_Ein_Avdat_17.JPG",
+      "width": 4592,
+      "height": 3120,
+      "caption": "Canyon Walls · Ein Avdat, Negev Highlands",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Zairon",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "009_ein_avdat_pool.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Avdat_Schlucht_Ein_Avdat_13.JPG",
+      "width": 4592,
+      "height": 3448,
+      "caption": "Natural Pool · Ein Avdat, Nahal Zin",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Zairon",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "010_timna_valley.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Landscape_in_Timna_Park_%283%29.JPG",
+      "width": 4752,
+      "height": 3168,
+      "caption": "Timna Valley · Southern Arava",
+      "license": "CC BY 3.0",
+      "attribution": "Chmee2",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "011_timna_red_rocks.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Landscape_in_Timna_Park_%286%29.JPG",
+      "width": 4752,
+      "height": 3168,
+      "caption": "Red Rock Desert · Timna Park",
+      "license": "CC BY 3.0",
+      "attribution": "Chmee2",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "012_timna_formations.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Landscape_in_Timna_Park_%2812%29.JPG",
+      "width": 4752,
+      "height": 3168,
+      "caption": "Ancient Rock Formations · Timna Park",
+      "license": "CC BY 3.0",
+      "attribution": "Chmee2",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "013_timna_desert_plain.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Landscape_in_Timna_Park_%2820%29.JPG",
+      "width": 4752,
+      "height": 3168,
+      "caption": "Desert Plain · Timna Park, Arava",
+      "license": "CC BY 3.0",
+      "attribution": "Chmee2",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "014_eilat_bay_red_sea.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/107803_eilat_bay_of_eilat_PikiWiki_Israel.jpg",
+      "width": 4608,
+      "height": 2592,
+      "caption": "Bay of Eilat · Red Sea",
+      "license": "CC BY 2.5",
+      "attribution": "Israel Zeller",
+      "source": "Wikimedia Commons / PikiWiki"
+    },
+    {
+      "filename": "015_dead_sea_ein_bokek.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/20211122_Landscape_at_the_Dead_Sea%2C_Ein_Bokek%2C_Israel_anagoria.jpg",
+      "width": 9000,
+      "height": 6750,
+      "caption": "Dead Sea · Ein Bokek",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Anagoria",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "016_dead_sea_shore.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Dead_Sea_1426_%28509724585%29.jpg",
+      "width": 3264,
+      "height": 2448,
+      "caption": "Dead Sea Shoreline · Judean Desert",
+      "license": "CC BY 2.0",
+      "attribution": "James Emery",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "017_golan_hamat_gader.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Landscape_outside_Hamat_Gader_-_Golan_Heights_%285710671600%29.jpg",
+      "width": 3429,
+      "height": 2299,
+      "caption": "Yarmouk Valley · Hamat Gader, Golan Heights",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Adam Jones",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "018_golan_sea_of_galilee_view.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Landscape_with_Lake_Kinnaret_%28Sea_of_Galilee%29_in_Distance_-_From_Golan_Heights_%285710776912%29.jpg",
+      "width": 3456,
+      "height": 2304,
+      "caption": "Sea of Galilee · View from Golan Heights",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Adam Jones",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "019_golan_plateau.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/The_Golan_Heights_are_constantly_developed_with_new_settlements_and_more_settlers_choose_the_beautiful_landscape_and_weather_%28FL61906697%29.jpg",
+      "width": 3295,
+      "height": 2056,
+      "caption": "Golan Heights Plateau · Northern Israel",
+      "license": "CC BY 4.0",
+      "attribution": "IPPA photographer",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "020_susita_galilee_view.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/107094_views_sprout_from_susita_PikiWiki_Israel.jpg",
+      "width": 4032,
+      "height": 3024,
+      "caption": "Sea of Galilee · View from Susita",
+      "license": "CC BY 2.5",
+      "attribution": "Shlomo Roded",
+      "source": "Wikimedia Commons / PikiWiki"
+    },
+    {
+      "filename": "021_north_kinneret_shore.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/107209_the_shores_of_the_north_kinneret_-_in_the_year_of_PikiWiki_Israel.jpg",
+      "width": 4032,
+      "height": 3024,
+      "caption": "Northern Shore · Sea of Galilee",
+      "license": "CC BY 2.5",
+      "attribution": "Shlomo Roded",
+      "source": "Wikimedia Commons / PikiWiki"
+    },
+    {
+      "filename": "022_kinneret_shoreline.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/107210_the_shores_of_the_north_kinneret_-_in_the_year_of_PikiWiki_Israel.jpg",
+      "width": 4032,
+      "height": 3024,
+      "caption": "Kinneret Shoreline · Sea of Galilee",
+      "license": "CC BY 2.5",
+      "attribution": "Shlomo Roded",
+      "source": "Wikimedia Commons / PikiWiki"
+    },
+    {
+      "filename": "023_ein_gedi_oasis.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Ein_Gedi_%281%29.jpg",
+      "width": 4000,
+      "height": 3000,
+      "caption": "Ein Gedi Oasis · Dead Sea Region",
+      "license": "CC BY 3.0",
+      "attribution": "Radosław Botev",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "024_ein_gedi_national_park.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Ein_Gedi_National_Park_%282%29.jpg",
+      "width": 4000,
+      "height": 3000,
+      "caption": "Ein Gedi National Park · Judean Desert",
+      "license": "CC BY 3.0",
+      "attribution": "Radosław Botev",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "025_kibbutz_ein_gedi_valley.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/127089_kibbutz_ein_gedi_landscapes_PikiWiki_Israel.jpg",
+      "width": 4032,
+      "height": 3024,
+      "caption": "Ein Gedi Valley · Dead Sea Cliffs",
+      "license": "CC BY 2.5",
+      "attribution": "Shlomo Roded",
+      "source": "Wikimedia Commons / PikiWiki"
+    },
+    {
+      "filename": "026_mount_gilboa_jezreel_view.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/101788_view_from_ma%27ale_gilboa_PikiWiki_Israel.jpg",
+      "width": 5374,
+      "height": 3023,
+      "caption": "Jezreel Valley · View from Mount Gilboa",
+      "license": "CC BY 2.5",
+      "attribution": "Davidid Vardi",
+      "source": "Wikimedia Commons / PikiWiki"
+    },
+    {
+      "filename": "027_beit_shean_valley_fields.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/101789_fields_around_nir_david_PikiWiki_Israel.jpg",
+      "width": 5337,
+      "height": 3558,
+      "caption": "Agricultural Fields · Beit She'an Valley",
+      "license": "CC BY 2.5",
+      "attribution": "Davidid Vardi",
+      "source": "Wikimedia Commons / PikiWiki"
+    },
+    {
+      "filename": "028_tirzah_valley_samaria.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/140579_tirzah_valley_in_samaria_-_north_of_jebel_kabir_PikiWiki_Israel.jpg",
+      "width": 4032,
+      "height": 3024,
+      "caption": "Nahal Tirtzah · Samaria Hills",
+      "license": "CC BY 2.5",
+      "attribution": "Shlomo Rodod",
+      "source": "Wikimedia Commons / PikiWiki"
+    },
+    {
+      "filename": "029_pekiin_cliff_upper_galilee.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/106898_sculpting_in_the_peki%27in_cliff_PikiWiki_Israel.jpg",
+      "width": 4032,
+      "height": 3024,
+      "caption": "Peki'in Cliffs · Upper Galilee",
+      "license": "CC BY 2.5",
+      "attribution": "Shlomo Roded",
+      "source": "Wikimedia Commons / PikiWiki"
+    },
+    {
+      "filename": "030_pekiin_valley_landscape.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/106900_paki%27in_landscapes_PikiWiki_Israel.jpg",
+      "width": 4032,
+      "height": 3024,
+      "caption": "Peki'in Valley · Upper Galilee Hills",
+      "license": "CC BY 2.5",
+      "attribution": "Shlomo Roded",
+      "source": "Wikimedia Commons / PikiWiki"
+    },
+    {
+      "filename": "031_nahal_saar_hermon_foothills.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/135740_bridge_over_the_saar_river_near_a_restaurant_in_th_PikiWiki_Israel.jpg",
+      "width": 4032,
+      "height": 3024,
+      "caption": "Nahal Saar · Hermon Foothills",
+      "license": "Public Domain",
+      "attribution": "Shlomo Rodod",
+      "source": "Wikimedia Commons / PikiWiki"
+    },
+    {
+      "filename": "032_zikim_mediterranean_beach.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/105634_zikim_beach_PikiWiki_Israel.jpg",
+      "width": 4624,
+      "height": 3468,
+      "caption": "Zikim Beach · Mediterranean Coast",
+      "license": "CC BY 2.5",
+      "attribution": "Stav Constik",
+      "source": "Wikimedia Commons / PikiWiki"
+    },
+    {
+      "filename": "033_dor_carmel_coast.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/141271_dor_beach_-_tantura_PikiWiki_Israel.jpg",
+      "width": 4598,
+      "height": 3319,
+      "caption": "Dor Beach · Carmel Coast",
+      "license": "CC BY 2.5",
+      "attribution": "Shlomo Rodod",
+      "source": "Wikimedia Commons / PikiWiki"
+    },
+    {
+      "filename": "034_rosh_hanikra_aerial.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/ROSH_HANIKRA_RH3_ITAMAR_GRINBERG_IMOT_%2814301597350%29.jpg",
+      "width": 3508,
+      "height": 2374,
+      "caption": "Rosh HaNikra White Cliffs · Northern Coast",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Israel Photo Gallery",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "035_rosh_hanikra_coast.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Rosh_Hanikra_080621_02.jpg",
+      "width": 3600,
+      "height": 2400,
+      "caption": "Rosh HaNikra Coastline · Western Galilee",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Oren Rozen",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "036_ramon_crater_view.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Ramon_Crater_4.jpg",
+      "width": 2856,
+      "height": 2142,
+      "caption": "Ramon Crater · Negev Desert",
+      "license": "Public Domain",
+      "attribution": "Tango7000",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "037_susita_galilee_panorama.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/107098_views_sprout_from_susita_PikiWiki_Israel.jpg",
+      "width": 4032,
+      "height": 3024,
+      "caption": "Galilee Panorama · Susita Summit",
+      "license": "CC BY 2.5",
+      "attribution": "Shlomo Roded",
+      "source": "Wikimedia Commons / PikiWiki"
+    },
+    {
+      "filename": "038_golan_heights_view.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/The_Golan_Heights_are_constantly_developed_with_new_settlements_and_more_settlers_choose_the_beautiful_landscape_and_weather_%28FL61906822%29.jpg",
+      "width": 3312,
+      "height": 2072,
+      "caption": "Open Landscape · Golan Heights",
+      "license": "CC BY 4.0",
+      "attribution": "IPPA photographer",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "039_negev_plateau_mitzpe_ramon.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/CamelHillMitzpeRamonMar262022_03.jpg",
+      "width": 4531,
+      "height": 3555,
+      "caption": "Negev Plateau · Mitzpe Ramon",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Hagai Agmon-Snir",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "040_timna_park_landscape.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Landscape_in_Timna_Park_%2817%29.JPG",
+      "width": 4752,
+      "height": 3168,
+      "caption": "Timna Park · Arava Valley, Southern Israel",
+      "license": "CC BY 3.0",
+      "attribution": "Chmee2",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}
