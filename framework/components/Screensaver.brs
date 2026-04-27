@@ -22,10 +22,10 @@ sub init()
 
     ' -- caption: size and position proportional to screen height --
     '    ~33pt / 60px padding at 1080p  →  ~66pt / 120px at 4K
-    fontSize  = Int(m.screenH * 0.040)
+    fontSize  = Int(m.screenH * 0.045)
     padW      = Int(m.screenH * 0.055)
     padH      = Int(m.screenH * 0.065)
-    shadowOff = Int(fontSize * 0.12)
+    shadowOff = 2
 
     m.captionGroup   = m.top.findNode("captionGroup")
     m.captionText    = m.top.findNode("captionText")
