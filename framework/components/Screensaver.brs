@@ -35,10 +35,16 @@ sub init()
 
     m.captionGroup.translation = [padW, m.screenH - fontSize - padH]
     maxLabelW = m.screenW - 2 * padW
+
+    ' Roku ignores fontSize unless a Font node is attached to the label.
+    ' Create one font node and share its reference across both labels.
+    fontNode = CreateObject("roSGNode", "Font")
+    fontNode.size = fontSize
+
     for each nodeId in ["captionText", "captionShadow"]
         n = m.top.findNode(nodeId)
-        n.fontSize = fontSize
-        n.width    = maxLabelW
+        n.font  = fontNode
+        n.width = maxLabelW
     end for
     m.captionShadow.translation = [shadowOff, shadowOff]
 
