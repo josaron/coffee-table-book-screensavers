@@ -5,8 +5,8 @@
 
     <!-- Dimensions and positions are set dynamically in init() via roDeviceInfo -->
     <Rectangle id="bg" color="0x000000FF"/>
-    <Poster id="imgA" loadDisplayMode="scaleToFit" opacity="0"/>
-    <Poster id="imgB" loadDisplayMode="scaleToFit" opacity="0"/>
+    <Poster id="imgA" loadDisplayMode="scaleToZoom" opacity="0"/>
+    <Poster id="imgB" loadDisplayMode="scaleToZoom" opacity="0"/>
 
     <!--
       Single crossfade Animation shared for both transition directions.
