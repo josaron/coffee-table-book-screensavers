@@ -1,11 +1,12 @@
 THEME      ?= sample
-ROKU_IP    ?=
-ROKU_PASS  ?= rokudev
+ROKU_IP    ?= 192.168.4.23
+ROKU_PASS  ?= abcd
+MAX_WIDTH  ?= 1920
 
 .PHONY: build deploy clean list-themes
 
 build:
-	./build.sh $(THEME)
+	./build.sh $(THEME) $(MAX_WIDTH)
 
 # Sideload to a Roku device in developer mode.
 # Enable developer mode: Settings > System > Advanced system settings > Developer mode
