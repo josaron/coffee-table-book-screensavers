@@ -3,21 +3,34 @@
   <script type="text/brightscript" uri="pkg:/components/Screensaver.brs"/>
   <children>
 
-    <!-- Black background fills any letterbox gaps -->
-    <Rectangle id="bg" width="3840" height="2160" color="0x000000FF"/>
-
-    <!-- Two poster layers for crossfade: one front, one back -->
-    <Poster id="imgA" width="3840" height="2160" loadDisplayMode="scaleToFit" opacity="0"/>
-    <Poster id="imgB" width="3840" height="2160" loadDisplayMode="scaleToFit" opacity="0"/>
+    <!-- Dimensions and positions are set dynamically in init() via roDeviceInfo -->
+    <Rectangle id="bg" color="0x000000FF"/>
+    <Poster id="imgA" loadDisplayMode="scaleToFit" opacity="0"/>
+    <Poster id="imgB" loadDisplayMode="scaleToFit" opacity="0"/>
 
     <!--
-      Crossfade animation: fades the outgoing image out while the incoming
-      image fades in. fieldToInterp is set at runtime so both directions work
-      with a single Animation node.
+      Single crossfade Animation shared for both transition directions.
+      fieldToInterp on each interpolator is set at runtime before each transition.
     -->
     <Animation id="crossfade" repeat="false" easeFunction="linear">
       <FloatFieldInterpolator id="fadeInterpOut" key="[0.0, 1.0]" keyValue="[1.0, 0.0]"/>
       <FloatFieldInterpolator id="fadeInterpIn"  key="[0.0, 1.0]" keyValue="[0.0, 1.0]"/>
+    </Animation>
+
+    <!--
+      Caption overlay: shadow label sits behind white label for a drop-shadow
+      effect without a background rect. Font size + position set in init().
+    -->
+    <Group id="captionGroup" opacity="0">
+      <Label id="captionShadow" color="0x000000BB" wrap="false"/>
+      <Label id="captionText"   color="0xFFFFFFFF" wrap="false"/>
+    </Group>
+
+    <Animation id="captionFadeIn" duration="0.8" repeat="false" easeFunction="inOutCubic">
+      <FloatFieldInterpolator key="[0.0, 1.0]" keyValue="[0.0, 1.0]" fieldToInterp="captionGroup.opacity"/>
+    </Animation>
+    <Animation id="captionFadeOut" duration="0.8" repeat="false" easeFunction="inOutCubic">
+      <FloatFieldInterpolator key="[0.0, 1.0]" keyValue="[1.0, 0.0]" fieldToInterp="captionGroup.opacity"/>
     </Animation>
 
   </children>

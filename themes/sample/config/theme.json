@@ -3,8 +3,8 @@
   "transitionDuration": 1.5,
   "shuffle": false,
   "images": [
-    "01.jpg",
-    "02.jpg",
-    "03.jpg"
+    { "filename": "01.jpg", "caption": "Sample Location · Region" },
+    { "filename": "02.jpg", "caption": "Sample Location · Region" },
+    { "filename": "03.jpg", "caption": "Sample Location · Region" }
   ]
 }

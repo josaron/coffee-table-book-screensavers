@@ -47,7 +47,7 @@ for i, img in enumerate(images, 1):
             f.write(r.read())
         size_kb = os.path.getsize(dest) // 1024
         print(f"✓  {size_kb} KB")
-        success.append(filename)
+        success.append({"filename": filename, "caption": img.get("caption", "")})
     except Exception as e:
         print(f"✗  {e}")
         failures.append({"filename": filename, "url": url, "error": str(e)})
