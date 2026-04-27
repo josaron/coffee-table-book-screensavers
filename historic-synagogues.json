@@ -1,0 +1,287 @@
+{
+  "theme": "historic-synagogues",
+  "displayName": "Historic Synagogues",
+  "displayDuration": 12,
+  "transitionDuration": 1.5,
+  "shuffle": true,
+  "branding": {
+    "splash": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Dohany_Synagogue_Pest_Hungary_exterior.jpg",
+      "caption": "Dohány Street Synagogue · Budapest, Hungary",
+      "attribution": "Emmanuel Dyan",
+      "license": "CC BY 2.0"
+    }
+  },
+  "images": [
+    {
+      "filename": "001_dohany_budapest_interior_nave.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Doh%C3%A1ny_Street_Synagogue_in_Pest%2C_Budapest_-_Hungary_%285131972615%29.jpg",
+      "width": 4672,
+      "height": 3104,
+      "caption": "Dohány Street Synagogue · Interior, Budapest",
+      "license": "CC BY 2.0",
+      "attribution": "Emmanuel Dyan",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "002_dohany_budapest_interior_gallery.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Doh%C3%A1ny_Street_Synagogue_in_Pest%2C_Budapest_-_Hungary_%285132509510%29.jpg",
+      "width": 4572,
+      "height": 2992,
+      "caption": "Dohány Street Synagogue · Upper Gallery, Budapest",
+      "license": "CC BY 2.0",
+      "attribution": "Emmanuel Dyan",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "003_dohany_budapest_interior_ceiling.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Doh%C3%A1ny_Street_Synagogue_in_Pest%2C_Budapest_-_Hungary_%285132570488%29.jpg",
+      "width": 4506,
+      "height": 2844,
+      "caption": "Dohány Street Synagogue · Gilded Ceiling, Budapest",
+      "license": "CC BY 2.0",
+      "attribution": "Emmanuel Dyan",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "004_dohany_budapest_exterior.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Dohany_Synagogue_Pest_Hungary_exterior.jpg",
+      "width": 4672,
+      "height": 3104,
+      "caption": "Dohány Street Synagogue · Exterior, Budapest",
+      "license": "CC BY 2.0",
+      "attribution": "Emmanuel Dyan",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "005_spanish_synagogue_prague_ceiling.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Prague_Spanish_Synagogue_Ceiling_%2851622949169%29.jpg",
+      "width": 5616,
+      "height": 3744,
+      "caption": "Spanish Synagogue · Moorish Ceiling, Prague",
+      "license": "CC BY 2.0",
+      "attribution": "Jorge Láscar",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "006_spanish_synagogue_prague_dome.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Praha_Spanish_Synagogue_Dome_01.jpg",
+      "width": 4233,
+      "height": 2844,
+      "caption": "Spanish Synagogue · Central Dome, Prague",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Uoaei1",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "007_spanish_synagogue_prague_rose_window.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Praha_Spanish_Synagogue_Rose_Window_01.jpg",
+      "width": 3982,
+      "height": 2655,
+      "caption": "Spanish Synagogue · Rose Window, Prague",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Uoaei1",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "008_maisel_synagogue_prague_exterior.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Synagogue_Maisel_Prague_1.jpg",
+      "width": 5184,
+      "height": 3456,
+      "caption": "Maisel Synagogue · Exterior, Prague",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Chabe01",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "009_maisel_synagogue_prague_interior.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Synagogue_Maisel_Prague_9.jpg",
+      "width": 5184,
+      "height": 3456,
+      "caption": "Maisel Synagogue · Interior, Prague",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Chabe01",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "010_maisel_synagogue_prague_detail.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Synagogue_Maisel_Prague_10.jpg",
+      "width": 5184,
+      "height": 3456,
+      "caption": "Maisel Synagogue · Architectural Detail, Prague",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Chabe01",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "011_santa_maria_la_blanca_toledo_arcos.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Santa_Mar%C3%ADa_la_Blanca_-_Arcos.jpg",
+      "width": 5920,
+      "height": 3947,
+      "caption": "Santa María la Blanca · Horseshoe Arches, Toledo",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Fernando",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "012_santa_maria_la_blanca_toledo_panorama.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Santa_Mar%C3%ADa_la_Blanca_-_Panorama.jpg",
+      "width": 12000,
+      "height": 4747,
+      "caption": "Santa María la Blanca · Five-Nave Panorama, Toledo",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Fernando",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "013_tempel_synagogue_krakow_interior.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Interior_of_the_Tempel_Synagogue_of_Kazimierz%2C_Krak%C3%B3w_20180813.jpg",
+      "width": 5184,
+      "height": 3456,
+      "caption": "Tempel Synagogue · Interior, Kazimierz, Kraków",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Suicasmo",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "014_tempel_synagogue_krakow_nave.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Tempel_%28Progressive%29_Synagogue%2C_interior%2C_24_Miodowa_Street%2C_Kazimierz%2C_Krak%C3%B3w%2C_Poland.jpg",
+      "width": 5568,
+      "height": 3712,
+      "caption": "Tempel Synagogue · Ornate Nave, Kazimierz, Kraków",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Jeremiah Z. Cockroach",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "015_nozyk_synagogue_warsaw_interior.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Interior_of_the_No%C5%BCyk_Synagogue_in_Warsaw.jpg",
+      "width": 4896,
+      "height": 3264,
+      "caption": "Nożyk Synagogue · Interior, Warsaw",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Ethan Doyle White",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "016_venice_ghetto_synagogue_interior.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Interior_of_one_of_the_synagogues_of_the_Jewish_Ghetto_of_Venice.jpg",
+      "width": 5472,
+      "height": 3648,
+      "caption": "Venice Ghetto Synagogue · Interior, Venice",
+      "license": "CC BY-SA 4.0",
+      "attribution": "DaringDonna",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "017_venice_ghetto_synagogue_bimah.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Interior_view_of_one_of_five_ancient_synagogues_found_in_modern_times_in_the_Venice_Ghetto.jpg",
+      "width": 5472,
+      "height": 3648,
+      "caption": "Venice Ghetto Synagogue · Bimah, Venice",
+      "license": "CC BY-SA 4.0",
+      "attribution": "DaringDonna",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "018_ben_ezra_synagogue_cairo_interior.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/By_ovedc_-_Ben_Ezra_Synagogue_-_04.jpg",
+      "width": 5312,
+      "height": 2988,
+      "caption": "Ben Ezra Synagogue · Interior, Cairo",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Ovedc",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "019_ben_ezra_synagogue_cairo_nave.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/By_ovedc_-_Ben_Ezra_Synagogue_-_06.jpg",
+      "width": 5312,
+      "height": 2988,
+      "caption": "Ben Ezra Synagogue · Central Nave, Cairo",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Ovedc",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "020_ben_ezra_synagogue_cairo_ceiling.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/By_ovedc_-_Ben_Ezra_Synagogue_-_03.jpg",
+      "width": 5312,
+      "height": 2988,
+      "caption": "Ben Ezra Synagogue · Carved Ceiling, Cairo",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Ovedc",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "021_hurva_synagogue_jerusalem_exterior.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Hurva_Synagogue_07112018.jpg",
+      "width": 5184,
+      "height": 3456,
+      "caption": "Hurva Synagogue · Old City, Jerusalem",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Suicasmo",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "022_isaac_wise_temple_cincinnati_nave.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Isaac_M._Wise_Temple_04.jpg",
+      "width": 5760,
+      "height": 3822,
+      "caption": "Isaac M. Wise Temple · Gothic Nave, Cincinnati",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Dfass25",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "023_isaac_wise_temple_cincinnati_interior.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Isaac_M._Wise_Temple_07.jpg",
+      "width": 6000,
+      "height": 4000,
+      "caption": "Isaac M. Wise Temple · Sanctuary, Cincinnati",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Dfass25",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "024_moscow_choral_synagogue_interior.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Interior_of_Moscow_Choral_Synagogue2.JPG",
+      "width": 3888,
+      "height": 2592,
+      "caption": "Moscow Choral Synagogue · Interior, Moscow",
+      "license": "Public Domain",
+      "attribution": "Unknown",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "025_moscow_choral_synagogue_nave.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Interior_of_Moscow_Choral_Synagogue3.JPG",
+      "width": 3888,
+      "height": 2592,
+      "caption": "Moscow Choral Synagogue · Nave, Moscow",
+      "license": "Public Domain",
+      "attribution": "Unknown",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "026_cetate_synagogue_timisoara_interior.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Cetate_Synagogue%2C_Timi%C8%99oara_-_interior.jpg",
+      "width": 3456,
+      "height": 2304,
+      "caption": "Cetate Synagogue · Interior, Timișoara",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Pudelek",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "filename": "027_cetate_synagogue_timisoara_nave.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Interior_Sinagoga_din_Cetate.jpg",
+      "width": 4608,
+      "height": 3072,
+      "caption": "Cetate Synagogue · Ornate Nave, Timișoara",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Gratziela Ciortuz",
+      "source": "Wikimedia Commons"
+    }
+  ]
+}

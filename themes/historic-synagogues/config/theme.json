@@ -1,0 +1,103 @@
+{
+  "displayDuration": 12,
+  "transitionDuration": 1.5,
+  "shuffle": true,
+  "images": [
+    {
+      "filename": "001_dohany_budapest_interior_nave.jpg",
+      "caption": "Doh\u00e1ny Street Synagogue \u00b7 Interior, Budapest"
+    },
+    {
+      "filename": "002_dohany_budapest_interior_gallery.jpg",
+      "caption": "Doh\u00e1ny Street Synagogue \u00b7 Upper Gallery, Budapest"
+    },
+    {
+      "filename": "003_dohany_budapest_interior_ceiling.jpg",
+      "caption": "Doh\u00e1ny Street Synagogue \u00b7 Gilded Ceiling, Budapest"
+    },
+    {
+      "filename": "004_dohany_budapest_exterior.jpg",
+      "caption": "Doh\u00e1ny Street Synagogue \u00b7 Exterior, Budapest"
+    },
+    {
+      "filename": "005_spanish_synagogue_prague_ceiling.jpg",
+      "caption": "Spanish Synagogue \u00b7 Moorish Ceiling, Prague"
+    },
+    {
+      "filename": "006_spanish_synagogue_prague_dome.jpg",
+      "caption": "Spanish Synagogue \u00b7 Central Dome, Prague"
+    },
+    {
+      "filename": "007_spanish_synagogue_prague_rose_window.jpg",
+      "caption": "Spanish Synagogue \u00b7 Rose Window, Prague"
+    },
+    {
+      "filename": "008_maisel_synagogue_prague_exterior.jpg",
+      "caption": "Maisel Synagogue \u00b7 Exterior, Prague"
+    },
+    {
+      "filename": "009_maisel_synagogue_prague_interior.jpg",
+      "caption": "Maisel Synagogue \u00b7 Interior, Prague"
+    },
+    {
+      "filename": "010_maisel_synagogue_prague_detail.jpg",
+      "caption": "Maisel Synagogue \u00b7 Architectural Detail, Prague"
+    },
+    {
+      "filename": "011_santa_maria_la_blanca_toledo_arcos.jpg",
+      "caption": "Santa Mar\u00eda la Blanca \u00b7 Horseshoe Arches, Toledo"
+    },
+    {
+      "filename": "012_santa_maria_la_blanca_toledo_panorama.jpg",
+      "caption": "Santa Mar\u00eda la Blanca \u00b7 Five-Nave Panorama, Toledo"
+    },
+    {
+      "filename": "013_tempel_synagogue_krakow_interior.jpg",
+      "caption": "Tempel Synagogue \u00b7 Interior, Kazimierz, Krak\u00f3w"
+    },
+    {
+      "filename": "014_tempel_synagogue_krakow_nave.jpg",
+      "caption": "Tempel Synagogue \u00b7 Ornate Nave, Kazimierz, Krak\u00f3w"
+    },
+    {
+      "filename": "015_nozyk_synagogue_warsaw_interior.jpg",
+      "caption": "No\u017cyk Synagogue \u00b7 Interior, Warsaw"
+    },
+    {
+      "filename": "016_venice_ghetto_synagogue_interior.jpg",
+      "caption": "Venice Ghetto Synagogue \u00b7 Interior, Venice"
+    },
+    {
+      "filename": "017_venice_ghetto_synagogue_bimah.jpg",
+      "caption": "Venice Ghetto Synagogue \u00b7 Bimah, Venice"
+    },
+    {
+      "filename": "020_ben_ezra_synagogue_cairo_ceiling.jpg",
+      "caption": "Ben Ezra Synagogue \u00b7 Carved Ceiling, Cairo"
+    },
+    {
+      "filename": "022_isaac_wise_temple_cincinnati_nave.jpg",
+      "caption": "Isaac M. Wise Temple \u00b7 Gothic Nave, Cincinnati"
+    },
+    {
+      "filename": "023_isaac_wise_temple_cincinnati_interior.jpg",
+      "caption": "Isaac M. Wise Temple \u00b7 Sanctuary, Cincinnati"
+    },
+    {
+      "filename": "024_moscow_choral_synagogue_interior.jpg",
+      "caption": "Moscow Choral Synagogue \u00b7 Interior, Moscow"
+    },
+    {
+      "filename": "025_moscow_choral_synagogue_nave.jpg",
+      "caption": "Moscow Choral Synagogue \u00b7 Nave, Moscow"
+    },
+    {
+      "filename": "026_cetate_synagogue_timisoara_interior.jpg",
+      "caption": "Cetate Synagogue \u00b7 Interior, Timi\u0219oara"
+    },
+    {
+      "filename": "027_cetate_synagogue_timisoara_nave.jpg",
+      "caption": "Cetate Synagogue \u00b7 Ornate Nave, Timi\u0219oara"
+    }
+  ]
+}
