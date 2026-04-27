@@ -22,7 +22,7 @@ sub init()
 
     ' -- caption: size and position proportional to screen height --
     '    ~33pt / 60px padding at 1080p  →  ~66pt / 120px at 4K
-    fontSize  = Int(m.screenH * 0.030)
+    fontSize  = Int(m.screenH * 0.040)
     padW      = Int(m.screenH * 0.055)
     padH      = Int(m.screenH * 0.065)
     shadowOff = Int(fontSize * 0.12)
