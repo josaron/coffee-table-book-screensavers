@@ -18,7 +18,7 @@ deploy: build
 	curl -s -S --user rokudev:$(ROKU_PASS) --anyauth \
 	  -F "mysubmit=Install" \
 	  -F "archive=@dist/$(THEME).zip" \
-	  "http://$(ROKU_IP)/plugin_install" | grep -oP '(?<=<font color="red">)[^<]+'
+	  "http://$(ROKU_IP)/plugin_install" | grep -oE '<font color="red">[^<]+' | sed 's/<font color="red">//'
 	@echo "Deployed $(THEME) → Roku @ $(ROKU_IP)"
 
 clean:
