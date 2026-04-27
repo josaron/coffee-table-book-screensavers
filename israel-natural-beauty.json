@@ -4,6 +4,14 @@
   "displayDuration": 12,
   "transitionDuration": 1.5,
   "shuffle": true,
+  "branding": {
+    "splash": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Aerial_view_Temple_Mount_Silwan_Kidron_Valley_City_of_David.jpeg",
+      "caption": "Temple Mount & Old City · Aerial View, Jerusalem",
+      "attribution": "Avram Graicer",
+      "license": "CC BY-SA 3.0"
+    }
+  },
   "images": [
     {
       "filename": "001_makhtesh_ramon_aerial.jpg",

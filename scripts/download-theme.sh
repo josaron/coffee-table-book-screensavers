@@ -3,6 +3,7 @@
 #
 # Reads the JSON produced by the image-sourcing AI prompt, downloads every
 # image into themes/<theme>/images/, and writes themes/<theme>/config/theme.json.
+# Also generates Roku branding assets (splash + icons) from manifest["branding"]["splash"].
 # Scaffolds the Roku manifest from themes/sample/manifest if none exists yet.
 set -euo pipefail
 
@@ -25,14 +26,15 @@ mkdir -p "$THEME_DIR/images" "$THEME_DIR/config"
 
 # Download images + write theme.json via Python (always present on macOS)
 python3 - "$MANIFEST" "$THEME_DIR" <<'PYEOF'
-import json, sys, urllib.request, urllib.error, os, re, time
+import json, sys, urllib.request, urllib.error, os, re, time, subprocess, tempfile
 
 manifest_path, theme_dir = sys.argv[1], sys.argv[2]
 
 with open(manifest_path) as f:
     manifest = json.load(f)
 
-TARGET_WIDTH = 3840  # request this width from Wikimedia thumbnail service
+TARGET_WIDTH  = 3840   # slideshow images
+BRANDING_WIDTH = 5000  # branding source — needs enough height for 1080px crop
 
 def wikimedia_thumbnail_url(url, width=TARGET_WIDTH):
     """
@@ -48,7 +50,6 @@ def wikimedia_thumbnail_url(url, width=TARGET_WIDTH):
     if not m:
         return url
     base, path, fname = m.group(1), m.group(2), m.group(3)
-    # fname may be URL-encoded; use as-is for the thumb path
     return f"{base}thumb/{path}{fname}/{width}px-{fname}"
 
 def fetch_with_retry(url, dest, retries=3):
@@ -71,15 +72,61 @@ def fetch_with_retry(url, dest, retries=3):
                 raise
     return False
 
+def sips_dimensions(path):
+    out = subprocess.check_output(
+        ["sips", "-g", "pixelWidth", "-g", "pixelHeight", path]
+    ).decode()
+    lines = out.splitlines()
+    w = int(next(l for l in lines if "pixelWidth"  in l).split()[-1])
+    h = int(next(l for l in lines if "pixelHeight" in l).split()[-1])
+    return w, h
+
+def make_branding_asset(source, dest, width, height, fmt="jpeg"):
+    """Center-crop-resize source image to width×height and save as fmt."""
+    src_w, src_h = sips_dimensions(source)
+
+    # Scale so the image covers the target (no letterboxing)
+    scale = max(width / src_w, height / src_h)
+    scaled_w = max(width,  int(src_w * scale))
+    scaled_h = max(height, int(src_h * scale))
+
+    with tempfile.NamedTemporaryFile(suffix=".jpg", delete=False) as tf:
+        tmp = tf.name
+    try:
+        # Step 1: resize to scaled dimensions
+        subprocess.run(
+            ["sips", "-z", str(scaled_h), str(scaled_w), source, "--out", tmp],
+            check=True, capture_output=True
+        )
+        # Step 2: center crop to exact target size
+        crop_x = (scaled_w - width)  // 2
+        crop_y = (scaled_h - height) // 2
+        subprocess.run(
+            ["sips", "--cropToHeightWidth", str(height), str(width),
+             "--cropOffset", str(crop_y), str(crop_x), tmp, "--out", dest],
+            check=True, capture_output=True
+        )
+        # Step 3: convert to PNG if needed
+        if fmt == "png":
+            subprocess.run(
+                ["sips", "-s", "format", "png", dest, "--out", dest],
+                check=True, capture_output=True
+            )
+    finally:
+        if os.path.exists(tmp):
+            os.unlink(tmp)
+
+# ── Slideshow images ──────────────────────────────────────────────────────────
+
 images   = manifest["images"]
 success  = []
 failures = []
 
 for i, img in enumerate(images, 1):
-    filename = img["filename"]
-    raw_url  = img["url"]
+    filename  = img["filename"]
+    raw_url   = img["url"]
     thumb_url = wikimedia_thumbnail_url(raw_url)
-    dest     = os.path.join(theme_dir, "images", filename)
+    dest      = os.path.join(theme_dir, "images", filename)
     print(f"[{i:02}/{len(images)}] {filename}", end="  ", flush=True)
     try:
         fetch_with_retry(thumb_url, dest)
@@ -107,6 +154,44 @@ if failures:
     with open(fail_path, "w") as f:
         json.dump(failures, f, indent=2)
     print(f"Failed URLs logged to: {fail_path}")
+
+# ── Branding assets ───────────────────────────────────────────────────────────
+
+branding = manifest.get("branding", {})
+splash   = branding.get("splash", {})
+splash_url = splash.get("url", "")
+
+if not splash_url:
+    print("\nNo branding.splash.url in manifest — skipping branding assets.")
+else:
+    print(f"\nGenerating branding assets from: {splash_url}")
+    images_dir = os.path.join(theme_dir, "images")
+
+    with tempfile.NamedTemporaryFile(suffix=".jpg", delete=False) as tf:
+        raw_source = tf.name
+    try:
+        thumb_url = wikimedia_thumbnail_url(splash_url, width=BRANDING_WIDTH)
+        print(f"  Downloading branding source…", end="  ", flush=True)
+        fetch_with_retry(thumb_url, raw_source)
+        src_kb = os.path.getsize(raw_source) // 1024
+        print(f"✓  {src_kb} KB")
+
+        assets = [
+            ("splash_hd.jpg",      1920, 1080, "jpeg"),
+            ("icon_focus_hd.png",   336,  210, "png"),
+            ("icon_side_hd.png",    108,   69, "png"),
+        ]
+        for filename, w, h, fmt in assets:
+            dest = os.path.join(images_dir, filename)
+            make_branding_asset(raw_source, dest, w, h, fmt)
+            size_kb = os.path.getsize(dest) // 1024
+            print(f"  {filename}: {w}×{h}  ({size_kb} KB)")
+    except Exception as e:
+        print(f"  ✗ Branding generation failed: {e}")
+    finally:
+        if os.path.exists(raw_source):
+            os.unlink(raw_source)
+
 PYEOF
 
 # Scaffold Roku manifest from sample template if this theme doesn't have one yet
@@ -120,6 +205,5 @@ fi
 
 echo ""
 echo "Next steps:"
-echo "  1. Add icon + splash images to $THEME_DIR/images/  (sizes in manifest comments)"
-echo "  2. make build THEME=$THEME"
-echo "  3. make deploy THEME=$THEME ROKU_IP=<ip> ROKU_PASS=<password>"
+echo "  1. make build THEME=$THEME"
+echo "  2. make deploy THEME=$THEME ROKU_IP=<ip> ROKU_PASS=<password>"
