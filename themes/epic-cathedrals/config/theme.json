@@ -1,0 +1,347 @@
+{
+  "displayDuration": 12,
+  "transitionDuration": 1.5,
+  "shuffle": true,
+  "images": [
+    {
+      "filename": "001_entrevaux_cathedral.jpg",
+      "caption": "Entrevaux Cathedral"
+    },
+    {
+      "filename": "002_henri_regnault_choir_stalls_in_a_spanish_cathedral.jpg",
+      "caption": "Henri Regnault Choir Stalls In A Spanish Cathedral"
+    },
+    {
+      "filename": "003_fiaccolata_presso_cattedrale_di_s_canio_e_s_maria.jpg",
+      "caption": "Fiaccolata Presso Cattedrale Di S Canio E S Maria"
+    },
+    {
+      "filename": "004_eisenstadt_dom_orgel.jpg",
+      "caption": "Eisenstadt Dom Orgel"
+    },
+    {
+      "filename": "005_2024_09_04_detail_an_einer_bank_im_k_lner_dom_im_h.jpg",
+      "caption": "2024 09 04 Detail An Einer Bank Im K Lner Dom Im H"
+    },
+    {
+      "filename": "006_2025_04_22_14_10_44_opferkerzen_im_k_lner_dom.jpg",
+      "caption": "2025 04 22 14 10 44 Opferkerzen Im K Lner Dom"
+    },
+    {
+      "filename": "007_2026_04_09_14_51_54_opferkerzen_im_k_lner_dom_link.jpg",
+      "caption": "2026 04 09 14 51 54 Opferkerzen Im K Lner Dom Link"
+    },
+    {
+      "filename": "008_2026_04_09_14_51_56_opferkerzen_im_k_lner_dom_link.jpg",
+      "caption": "2026 04 09 14 51 56 Opferkerzen Im K Lner Dom Link"
+    },
+    {
+      "filename": "009_2026_04_09_14_51_57_opferkerzen_im_k_lner_dom_link.jpg",
+      "caption": "2026 04 09 14 51 57 Opferkerzen Im K Lner Dom Link"
+    },
+    {
+      "filename": "011_cologne_choir_interior_and_exterior_02.jpg",
+      "caption": "The Rayonnant choir of Cologne Cathedral, interior and exterior (1248-1322)"
+    },
+    {
+      "filename": "012_cologne_koln_cathedral_10574637516.jpg",
+      "caption": "Cologne Koln Cathedral 10574637516"
+    },
+    {
+      "filename": "013_cologne_koln_cathedral_10574668314.jpg",
+      "caption": "Cologne Koln Cathedral 10574668314"
+    },
+    {
+      "filename": "014_cologne_cathedral_55211056555.jpg",
+      "caption": "Cologne Cathedral 55211056555"
+    },
+    {
+      "filename": "015_cologne_cathedral_03_5481509408.jpg",
+      "caption": "Cologne Cathedral 03 5481509408"
+    },
+    {
+      "filename": "016_cologne_cathedral_interior.jpg",
+      "caption": "Cologne Cathedral Interior"
+    },
+    {
+      "filename": "017_2018_08_18_italy_rome_vatican_dsc_5790_dxo.jpg",
+      "caption": "2018 08 18 Italy Rome Vatican Dsc 5790 Dxo"
+    },
+    {
+      "filename": "018_20190811_roma_jpeg2_07.jpg",
+      "caption": "20190811 Roma Jpeg2 07"
+    },
+    {
+      "filename": "019_algunas_esculturas_en_la_bas_lica_de_san_pedro_21.jpg",
+      "caption": "Algunas Esculturas En La Bas Lica De San Pedro 21"
+    },
+    {
+      "filename": "020_algunas_esculturas_en_la_bas_lica_de_san_pedro_25.jpg",
+      "caption": "Algunas Esculturas En La Bas Lica De San Pedro 25"
+    },
+    {
+      "filename": "021_algunas_esculturas_en_la_bas_lica_de_san_pedro_40.jpg",
+      "caption": "Algunas Esculturas En La Bas Lica De San Pedro 40"
+    },
+    {
+      "filename": "022_algunas_esculturas_en_la_bas_lica_de_san_pedro_41.jpg",
+      "caption": "Algunas Esculturas En La Bas Lica De San Pedro 41"
+    },
+    {
+      "filename": "027_benfoto_roma2013_290.jpg",
+      "caption": "Benfoto Roma2013 290"
+    },
+    {
+      "filename": "028_catholic_dome_ceiling_unsplash.jpg",
+      "caption": "Catholic Dome Ceiling Unsplash"
+    },
+    {
+      "filename": "029_ceiling_shots_1_5694329862.jpg",
+      "caption": "Ceiling Shots 1 5694329862"
+    },
+    {
+      "filename": "030_domos_pisos_y_columnas_en_la_bas_lica_de_san_pedro.jpg",
+      "caption": "Domos Pisos Y Columnas En La Bas Lica De San Pedro"
+    },
+    {
+      "filename": "031_domos_pisos_y_columnas_en_la_bas_lica_de_san_pedro.jpg",
+      "caption": "Domos Pisos Y Columnas En La Bas Lica De San Pedro"
+    },
+    {
+      "filename": "032_domos_pisos_y_columnas_en_la_bas_lica_de_san_pedro.jpg",
+      "caption": "Domos Pisos Y Columnas En La Bas Lica De San Pedro"
+    },
+    {
+      "filename": "033_domos_pisos_y_columnas_en_la_bas_lica_de_san_pedro.jpg",
+      "caption": "Domos Pisos Y Columnas En La Bas Lica De San Pedro"
+    },
+    {
+      "filename": "045_fotograf_a_oscura_en_el_vaticano_02.jpg",
+      "caption": "Fotograf A Oscura En El Vaticano 02"
+    },
+    {
+      "filename": "046_fotograf_a_oscura_en_el_vaticano_03.jpg",
+      "caption": "Fotograf A Oscura En El Vaticano 03"
+    },
+    {
+      "filename": "047_fotograf_a_oscura_en_el_vaticano_06.jpg",
+      "caption": "Fotograf A Oscura En El Vaticano 06"
+    },
+    {
+      "filename": "048_fotograf_a_oscura_en_el_vaticano_10.jpg",
+      "caption": "Fotograf A Oscura En El Vaticano 10"
+    },
+    {
+      "filename": "058_archs_n_angels_flickr_aismist.jpg",
+      "caption": "Archs N Angels Flickr Aismist"
+    },
+    {
+      "filename": "059_cologne_cathedral_st_peter.jpg",
+      "caption": "Cologne Cathedral St Peter"
+    },
+    {
+      "filename": "060_cologne_cathedral_back_view.jpg",
+      "caption": "Cologne Cathedral Back View"
+    },
+    {
+      "filename": "061_cologne_cathedral_flags_at_easter_time.jpg",
+      "caption": "Cologne Cathedral Flags At Easter Time"
+    },
+    {
+      "filename": "062_cologne_cathedral_at_sunset_54503510135.jpg",
+      "caption": "Cologne Cathedral At Sunset 54503510135"
+    },
+    {
+      "filename": "063_cologne_cathedral_during_weihnachtsmarkt.jpg",
+      "caption": "Cologne Cathedral During Weihnachtsmarkt"
+    },
+    {
+      "filename": "064_cologne_dom_after_the_rain_flickr_sergiy_galyonkin.jpg",
+      "caption": "Cologne Dom After The Rain Flickr Sergiy Galyonkin"
+    },
+    {
+      "filename": "065_cologne_dome_dramatic_style_16652836665.jpg",
+      "caption": "Cologne Dome Dramatic Style 16652836665"
+    },
+    {
+      "filename": "066_cologne_cathedral13.jpg",
+      "caption": "Cologne Cathedral13"
+    },
+    {
+      "filename": "067_dom_panoramio_2.jpg",
+      "caption": "Dom Panoramio 2"
+    },
+    {
+      "filename": "068_dom_panoramio_6.jpg",
+      "caption": "Dom Panoramio 6"
+    },
+    {
+      "filename": "069_dom_b_hne_15311532565.jpg",
+      "caption": "Dom B Hne 15311532565"
+    },
+    {
+      "filename": "070_dom_flora_am_k_lner_dom.jpg",
+      "caption": "Dom Flora Am K Lner Dom"
+    },
+    {
+      "filename": "071_dornier_do_att_24_wasserung_rhein_k_ln.jpg",
+      "caption": "Dornier Do Att 24 Wasserung Rhein K Ln"
+    },
+    {
+      "filename": "072_d_m_fortepan_18092.jpg",
+      "caption": "D M Fortepan 18092"
+    },
+    {
+      "filename": "073_europe_panoramio_9.jpg",
+      "caption": "Europe Panoramio 9"
+    },
+    {
+      "filename": "074_exterior_of_cologne_cathedral.jpg",
+      "caption": "Exterior Of Cologne Cathedral"
+    },
+    {
+      "filename": "075_hohenzollernbr_cke_kolonia_7.jpg",
+      "caption": "Hohenzollernbr Cke Kolonia 7"
+    },
+    {
+      "filename": "076_hohenzollernbr_cke_kolonia_8.jpg",
+      "caption": "Hohenzollernbr Cke Kolonia 8"
+    },
+    {
+      "filename": "077_k_ln_dom_ex_01_ies.jpg",
+      "caption": "K Ln Dom Ex 01 Ies"
+    },
+    {
+      "filename": "078_k_ln_jul_2012_03_k_lner_dom.jpg",
+      "caption": "K Ln Jul 2012 03 K Lner Dom"
+    },
+    {
+      "filename": "079_k_ln_jul_2012_04_k_lner_dom.jpg",
+      "caption": "K Ln Jul 2012 04 K Lner Dom"
+    },
+    {
+      "filename": "080_k_ln_cathedral_2024.jpg",
+      "caption": "K Ln Cathedral 2024"
+    },
+    {
+      "filename": "081_k_lner_dom_fassade.jpg",
+      "caption": "K Lner Dom Fassade"
+    },
+    {
+      "filename": "082_cath_drale_saint_jean_baptiste_lyon.jpg",
+      "caption": "Cath Drale Saint Jean Baptiste Lyon"
+    },
+    {
+      "filename": "083_inpemmanuelags.jpg",
+      "caption": "Interior del templo de la Iglesia Nacional Presbiteriana en la ciudad de Aguascalientes, Ags. M\u00e9xico"
+    },
+    {
+      "filename": "084_adoraci_n_al_santisimo.jpg",
+      "caption": "Adoraci N Al Santisimo"
+    },
+    {
+      "filename": "085_angangueo_08.jpg",
+      "caption": "Angangueo 08"
+    },
+    {
+      "filename": "086_entrada_a_la_parroquia_san_jacinto_ixtapaluca_mexi.jpg",
+      "caption": "Entrada A La Parroquia San Jacinto Ixtapaluca Mexi"
+    },
+    {
+      "filename": "087_fontheadyeca.jpg",
+      "caption": "View of the main baptismal font with view of jaguar head at the San Juan Bautista church in Yecapixt"
+    },
+    {
+      "filename": "088_franmonasteryzacatlan03.jpg",
+      "caption": "Main nave of the Franciscan monastery of Zacatl\u00e1n, Puebla, Mexico."
+    },
+    {
+      "filename": "089_mitla_iglesia_2.jpg",
+      "caption": "Mitla Iglesia 2"
+    },
+    {
+      "filename": "090_navesmahuejotzingo.jpg",
+      "caption": "Nave of the church of the San Miguel Arcangel monastery in Huejotzingo, Puebla, Mexico"
+    },
+    {
+      "filename": "091_interior_de_una_de_las_tres_naves_del_ex_convento.jpg",
+      "caption": "Interior De Una De Las Tres Naves Del Ex Convento"
+    },
+    {
+      "filename": "092_interior_del_ex_convento_franciscano_de_tecali_de.jpg",
+      "caption": "Interior Del Ex Convento Franciscano De Tecali De"
+    },
+    {
+      "filename": "093_parroquia_de_nuestra_se_ora_de_guadalupe.jpg",
+      "caption": "Parroquia De Nuestra Se Ora De Guadalupe"
+    },
+    {
+      "filename": "094_posada_terminada.jpg",
+      "caption": "Posada Terminada"
+    },
+    {
+      "filename": "095_san_diego_por_dentro.jpg",
+      "caption": "San Diego Por Dentro"
+    },
+    {
+      "filename": "096_a_j_zus_t_rsas_g_temploma_a_mez_k_vesdi_kistemplom.jpg",
+      "caption": "A J Zus T Rsas G Temploma A Mez K Vesdi Kistemplom"
+    },
+    {
+      "filename": "097_csesztvefotothalertamas132.jpg",
+      "caption": "Csesztvefotothalertamas132"
+    },
+    {
+      "filename": "098_kap_husvet.jpg",
+      "caption": "Kap Husvet"
+    },
+    {
+      "filename": "099_kapmegyer_kapolna.jpg",
+      "caption": "Kapmegyer Kapolna"
+    },
+    {
+      "filename": "100_mesterifotothalertamas1.jpg",
+      "caption": "Mesteri. \u00e1rp\u00e1d-kori templom szent\u00e9lye"
+    },
+    {
+      "filename": "101_mor_kosciol_sw_krzyza_4.jpg",
+      "caption": "Mor Kosciol Sw Krzyza 4"
+    },
+    {
+      "filename": "102_m_riak_nnye_chapel_interior.jpg",
+      "caption": "M Riak Nnye Chapel Interior"
+    },
+    {
+      "filename": "103_puspokszentlaszlo_church_interior.jpg",
+      "caption": "Puspokszentlaszlo Church Interior"
+    },
+    {
+      "filename": "104_roszke_08759.jpg",
+      "caption": "Roszke 08759"
+    },
+    {
+      "filename": "105_sztannaleanyfalaufotothalertamas.jpg",
+      "caption": "A Szent Anna-templom szent\u00e9lye"
+    },
+    {
+      "filename": "106_t_rkevechurch008.jpg",
+      "caption": "East part ofthe nave the reformed church's in T\u00farkeve, Hungary"
+    },
+    {
+      "filename": "107_t_rkevechurch009.jpg",
+      "caption": "Pulpit in the reformed church's in T\u00farkeve, Hungary"
+    },
+    {
+      "filename": "108_t_rkevechurch010.jpg",
+      "caption": "Second storey of the east balcony in the reformed church in T\u00farkeve, Hungary"
+    },
+    {
+      "filename": "109_t_rkevechurch011.jpg",
+      "caption": "West part of the nave the reformed church's in T\u00farkeve, Hungary"
+    },
+    {
+      "filename": "110_b_bober.jpg",
+      "caption": "B Bober"
+    }
+  ]
+}

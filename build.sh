@@ -31,14 +31,22 @@ cp    "$THEME_DIR/manifest"  "$BUILD_DIR/manifest"
 cp -r "$THEME_DIR/images"    "$BUILD_DIR/images"
 cp -r "$THEME_DIR/config"    "$BUILD_DIR/config"
 
-# 3. Downscale images in staging area to MAX_WIDTH (preserves source files)
-echo "Resizing images to ${MAX_WIDTH}px wide…"
+# 3. Downscale images in staging area to fit within MAX_WIDTH × (MAX_WIDTH*9/16)
+#    Two-pass: first cap the longest side, then cap height for non-16:9 images.
+MAX_HEIGHT=$(( MAX_WIDTH * 9 / 16 ))
+echo "Resizing images to max ${MAX_WIDTH}×${MAX_HEIGHT}px…"
 for f in "$BUILD_DIR"/images/*.jpg; do
   sips -Z "$MAX_WIDTH" "$f" --out "$f" > /dev/null 2>&1
+  h=$(sips -g pixelHeight "$f" 2>/dev/null | awk '/pixelHeight/{print $2}')
+  [ -n "$h" ] && [ "$h" -gt "$MAX_HEIGHT" ] && sips -Z "$MAX_HEIGHT" "$f" --out "$f" > /dev/null 2>&1
 done
 
 # 4. Package: Roku expects a ZIP of the channel root contents (not a wrapper dir)
+#    Exclude store-only assets (not part of the running channel)
 rm -f "$OUTPUT"
-(cd "$BUILD_DIR" && zip -r "../../$OUTPUT" . -x "*.DS_Store")
+(cd "$BUILD_DIR" && zip -r "../../$OUTPUT" . \
+  -x "*.DS_Store" \
+  -x "images/store_poster.jpg" \
+  -x "images/store_screenshot.jpg")
 
 echo "Built: $OUTPUT  ($(du -sh "$OUTPUT" | cut -f1))"

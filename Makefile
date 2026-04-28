@@ -1,6 +1,6 @@
 THEME      ?= sample
 ROKU_IP    ?= 192.168.4.23
-ROKU_PASS  ?= abcd
+ROKU_PASS  ?= Roku1234
 MAX_WIDTH  ?= 1920
 
 .PHONY: build deploy clean list-themes

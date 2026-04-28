@@ -21,6 +21,7 @@ Each image must be stunning enough to appear in a high-end coffee table book. Th
 - Real photographs only (no illustrations, maps, or diagrams)
 - No humans in the frame — wildlife is welcome
 - Scenery, nature, or landmarks only
+- **No more than 4 images of any single place, landmark, or subject** — vary the collection across as many distinct locations as possible
 
 **Caption format:** "Location Name · Region/Context" (e.g., "Makhtesh Ramon · Crater Floor, Negev")
 

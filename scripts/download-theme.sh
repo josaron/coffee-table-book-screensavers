@@ -116,6 +116,72 @@ def make_branding_asset(source, dest, width, height, fmt="jpeg"):
         if os.path.exists(tmp):
             os.unlink(tmp)
 
+def add_text_overlay(img_path, display_name):
+    """
+    Composite '<DisplayName> / Screensaver' text onto a branding asset.
+    Centers text vertically over a uniform dark overlay. Modifies file in-place.
+    Auto-shrinks font until the display name fits within 90% of the image width.
+    """
+    from PIL import Image, ImageDraw, ImageFont
+
+    FONT = "/System/Library/Fonts/HelveticaNeue.ttc"
+
+    img = Image.open(img_path).convert("RGBA")
+    w, h = img.size
+
+    sz1    = max(12, int(h * 0.16))
+    max_tw = int(w * 0.90)
+
+    def load_fonts(s):
+        try:
+            f1 = ImageFont.truetype(FONT, s,                   index=1)
+            f2 = ImageFont.truetype(FONT, max(8, int(s * 0.65)), index=0)
+        except Exception:
+            f1 = f2 = ImageFont.load_default()
+        return f1, f2
+
+    font1, font2 = load_fonts(sz1)
+    probe_draw   = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+
+    def text_wh(text, font):
+        bb = probe_draw.textbbox((0, 0), text, font=font)
+        return bb[2] - bb[0], bb[3] - bb[1]
+
+    while sz1 > 8:
+        tw1, _ = text_wh(display_name, font1)
+        if tw1 <= max_tw:
+            break
+        sz1 -= 1
+        font1, font2 = load_fonts(sz1)
+
+    # Uniform semi-transparent dark overlay
+    overlay = Image.new("RGBA", (w, h), (0, 0, 0, 140))
+    img = Image.alpha_composite(img, overlay)
+
+    draw = ImageDraw.Draw(img)
+
+    tw1, th1 = text_wh(display_name,  font1)
+    tw2, th2 = text_wh("Screensaver", font2)
+
+    gap     = max(3, int(h * 0.03))
+    block_h = th1 + gap + th2
+    y1      = (h - block_h) // 2
+    y2      = y1 + th1 + gap
+    x1      = (w - tw1) // 2
+    x2      = (w - tw2) // 2
+    shad    = max(1, int(sz1 * 0.06))
+
+    draw.text((x1 + shad, y1 + shad), display_name,  font=font1, fill=(0,   0,   0,   200))
+    draw.text((x2 + shad, y2 + shad), "Screensaver", font=font2, fill=(0,   0,   0,   200))
+    draw.text((x1, y1),               display_name,  font=font1, fill=(255, 255, 255, 255))
+    draw.text((x2, y2),               "Screensaver", font=font2, fill=(210, 210, 210, 255))
+
+    ext = os.path.splitext(img_path)[1].lower()
+    if ext == ".png":
+        img.save(img_path, "PNG")
+    else:
+        img.convert("RGB").save(img_path, "JPEG", quality=92)
+
 # ── Slideshow images ──────────────────────────────────────────────────────────
 
 images   = manifest["images"]
@@ -161,6 +227,8 @@ branding = manifest.get("branding", {})
 splash   = branding.get("splash", {})
 splash_url = splash.get("url", "")
 
+display_name = manifest.get("displayName", os.path.basename(theme_dir).replace("-", " ").title())
+
 if not splash_url:
     print("\nNo branding.splash.url in manifest — skipping branding assets.")
 else:
@@ -176,16 +244,22 @@ else:
         src_kb = os.path.getsize(raw_source) // 1024
         print(f"✓  {src_kb} KB")
 
+        # splash_hd.jpg: loading screen — plain photo, no text overlay
+        # icon/poster assets: add "<DisplayName> / Screensaver" text overlay
         assets = [
-            ("splash_hd.jpg",      1920, 1080, "jpeg"),
-            ("icon_focus_hd.png",   336,  210, "png"),
-            ("icon_side_hd.png",    108,   69, "png"),
+            ("splash_hd.jpg",      1920, 1080, "jpeg", False),
+            ("store_poster.jpg",    540,  405, "jpeg", True),
+            ("icon_focus_hd.png",   336,  210, "png",  True),
+            ("icon_side_hd.png",    108,   69, "png",  True),
         ]
-        for filename, w, h, fmt in assets:
+        for filename, w, h, fmt, with_text in assets:
             dest = os.path.join(images_dir, filename)
             make_branding_asset(raw_source, dest, w, h, fmt)
+            if with_text:
+                add_text_overlay(dest, display_name)
             size_kb = os.path.getsize(dest) // 1024
-            print(f"  {filename}: {w}×{h}  ({size_kb} KB)")
+            label = " + text" if with_text else ""
+            print(f"  {filename}: {w}×{h}{label}  ({size_kb} KB)")
     except Exception as e:
         print(f"  ✗ Branding generation failed: {e}")
     finally:

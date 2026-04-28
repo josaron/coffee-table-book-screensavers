@@ -5,99 +5,393 @@
   "images": [
     {
       "filename": "001_dohany_budapest_interior_nave.jpg",
-      "caption": "Doh\u00e1ny Street Synagogue \u00b7 Interior, Budapest"
+      "caption": "Doh\u00e1ny Street Synagogue \u00b7 Interior, Budapest",
+      "license": "CC BY 2.0",
+      "attribution": "Emmanuel Dyan"
     },
     {
       "filename": "002_dohany_budapest_interior_gallery.jpg",
-      "caption": "Doh\u00e1ny Street Synagogue \u00b7 Upper Gallery, Budapest"
+      "caption": "Doh\u00e1ny Street Synagogue \u00b7 Upper Gallery, Budapest",
+      "license": "CC BY 2.0",
+      "attribution": "Emmanuel Dyan"
     },
     {
       "filename": "003_dohany_budapest_interior_ceiling.jpg",
-      "caption": "Doh\u00e1ny Street Synagogue \u00b7 Gilded Ceiling, Budapest"
+      "caption": "Doh\u00e1ny Street Synagogue \u00b7 Gilded Ceiling, Budapest",
+      "license": "CC BY 2.0",
+      "attribution": "Emmanuel Dyan"
     },
     {
       "filename": "004_dohany_budapest_exterior.jpg",
-      "caption": "Doh\u00e1ny Street Synagogue \u00b7 Exterior, Budapest"
+      "caption": "Doh\u00e1ny Street Synagogue \u00b7 Exterior, Budapest",
+      "license": "CC BY 2.0",
+      "attribution": "Emmanuel Dyan"
     },
     {
       "filename": "005_spanish_synagogue_prague_ceiling.jpg",
-      "caption": "Spanish Synagogue \u00b7 Moorish Ceiling, Prague"
+      "caption": "Spanish Synagogue \u00b7 Moorish Ceiling, Prague",
+      "license": "CC BY 2.0",
+      "attribution": "Jorge L\u00e1scar"
     },
     {
       "filename": "006_spanish_synagogue_prague_dome.jpg",
-      "caption": "Spanish Synagogue \u00b7 Central Dome, Prague"
+      "caption": "Spanish Synagogue \u00b7 Central Dome, Prague",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Uoaei1"
     },
     {
       "filename": "007_spanish_synagogue_prague_rose_window.jpg",
-      "caption": "Spanish Synagogue \u00b7 Rose Window, Prague"
+      "caption": "Spanish Synagogue \u00b7 Rose Window, Prague",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Uoaei1"
     },
     {
       "filename": "008_maisel_synagogue_prague_exterior.jpg",
-      "caption": "Maisel Synagogue \u00b7 Exterior, Prague"
+      "caption": "Maisel Synagogue \u00b7 Exterior, Prague",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Chabe01"
     },
     {
       "filename": "009_maisel_synagogue_prague_interior.jpg",
-      "caption": "Maisel Synagogue \u00b7 Interior, Prague"
+      "caption": "Maisel Synagogue \u00b7 Interior, Prague",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Chabe01"
     },
     {
       "filename": "010_maisel_synagogue_prague_detail.jpg",
-      "caption": "Maisel Synagogue \u00b7 Architectural Detail, Prague"
+      "caption": "Maisel Synagogue \u00b7 Architectural Detail, Prague",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Chabe01"
     },
     {
       "filename": "011_santa_maria_la_blanca_toledo_arcos.jpg",
-      "caption": "Santa Mar\u00eda la Blanca \u00b7 Horseshoe Arches, Toledo"
+      "caption": "Santa Mar\u00eda la Blanca \u00b7 Horseshoe Arches, Toledo",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Fernando"
     },
     {
       "filename": "012_santa_maria_la_blanca_toledo_panorama.jpg",
-      "caption": "Santa Mar\u00eda la Blanca \u00b7 Five-Nave Panorama, Toledo"
+      "caption": "Santa Mar\u00eda la Blanca \u00b7 Five-Nave Panorama, Toledo",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Fernando"
     },
     {
       "filename": "013_tempel_synagogue_krakow_interior.jpg",
-      "caption": "Tempel Synagogue \u00b7 Interior, Kazimierz, Krak\u00f3w"
+      "caption": "Tempel Synagogue \u00b7 Interior, Kazimierz, Krak\u00f3w",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Suicasmo"
     },
     {
       "filename": "014_tempel_synagogue_krakow_nave.jpg",
-      "caption": "Tempel Synagogue \u00b7 Ornate Nave, Kazimierz, Krak\u00f3w"
+      "caption": "Tempel Synagogue \u00b7 Ornate Nave, Kazimierz, Krak\u00f3w",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Jeremiah Z. Cockroach"
     },
     {
       "filename": "015_nozyk_synagogue_warsaw_interior.jpg",
-      "caption": "No\u017cyk Synagogue \u00b7 Interior, Warsaw"
+      "caption": "No\u017cyk Synagogue \u00b7 Interior, Warsaw",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Ethan Doyle White"
     },
     {
       "filename": "016_venice_ghetto_synagogue_interior.jpg",
-      "caption": "Venice Ghetto Synagogue \u00b7 Interior, Venice"
+      "caption": "Venice Ghetto Synagogue \u00b7 Interior, Venice",
+      "license": "CC BY-SA 4.0",
+      "attribution": "DaringDonna"
     },
     {
       "filename": "017_venice_ghetto_synagogue_bimah.jpg",
-      "caption": "Venice Ghetto Synagogue \u00b7 Bimah, Venice"
+      "caption": "Venice Ghetto Synagogue \u00b7 Bimah, Venice",
+      "license": "CC BY-SA 4.0",
+      "attribution": "DaringDonna"
+    },
+    {
+      "filename": "018_ben_ezra_synagogue_cairo_interior.jpg",
+      "caption": "Ben Ezra Synagogue \u00b7 Interior, Cairo",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Ovedc"
+    },
+    {
+      "filename": "019_ben_ezra_synagogue_cairo_nave.jpg",
+      "caption": "Ben Ezra Synagogue \u00b7 Nave, Cairo",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Ovedc"
     },
     {
       "filename": "020_ben_ezra_synagogue_cairo_ceiling.jpg",
-      "caption": "Ben Ezra Synagogue \u00b7 Carved Ceiling, Cairo"
+      "caption": "Ben Ezra Synagogue \u00b7 Carved Ceiling, Cairo",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Ovedc"
+    },
+    {
+      "filename": "021_hurva_synagogue_jerusalem_exterior.jpg",
+      "caption": "Hurva Synagogue \u00b7 Jerusalem",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Suicasmo"
     },
     {
       "filename": "022_isaac_wise_temple_cincinnati_nave.jpg",
-      "caption": "Isaac M. Wise Temple \u00b7 Gothic Nave, Cincinnati"
+      "caption": "Isaac M. Wise Temple \u00b7 Gothic Nave, Cincinnati",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Dfass25"
     },
     {
       "filename": "023_isaac_wise_temple_cincinnati_interior.jpg",
-      "caption": "Isaac M. Wise Temple \u00b7 Sanctuary, Cincinnati"
+      "caption": "Isaac M. Wise Temple \u00b7 Sanctuary, Cincinnati",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Dfass25"
     },
     {
       "filename": "024_moscow_choral_synagogue_interior.jpg",
-      "caption": "Moscow Choral Synagogue \u00b7 Interior, Moscow"
+      "caption": "Moscow Choral Synagogue \u00b7 Interior, Moscow",
+      "license": "Public Domain",
+      "attribution": "Unknown"
     },
     {
       "filename": "025_moscow_choral_synagogue_nave.jpg",
-      "caption": "Moscow Choral Synagogue \u00b7 Nave, Moscow"
+      "caption": "Moscow Choral Synagogue \u00b7 Nave, Moscow",
+      "license": "Public Domain",
+      "attribution": "Unknown"
     },
     {
       "filename": "026_cetate_synagogue_timisoara_interior.jpg",
-      "caption": "Cetate Synagogue \u00b7 Interior, Timi\u0219oara"
+      "caption": "Cetate Synagogue \u00b7 Interior, Timi\u0219oara",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Pudelek"
     },
     {
       "filename": "027_cetate_synagogue_timisoara_nave.jpg",
-      "caption": "Cetate Synagogue \u00b7 Ornate Nave, Timi\u0219oara"
+      "caption": "Cetate Synagogue \u00b7 Ornate Nave, Timi\u0219oara",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Gratziela Ciortuz"
+    },
+    {
+      "filename": "028_ceiling_of_former_synagogue_kecskemet_hungary.jpg",
+      "caption": "Ceiling Of Former Synagogue Kecskemet Hungary"
+    },
+    {
+      "filename": "029_m_d_zsinag_ga_bels_t_r.jpg",
+      "caption": "M D Zsinag Ga Bels T R"
+    },
+    {
+      "filename": "030_nagyk_r_s_zsinag_ga.jpg",
+      "caption": "Nagyk R S Zsinag Ga"
+    },
+    {
+      "filename": "031_20190426_184322_synagoga_w_odzi_ul_pomorska_18.jpg",
+      "caption": "20190426 184322 Synagoga W Odzi Ul Pomorska 18"
+    },
+    {
+      "filename": "032_20190426_184325_synagoga_w_odzi_ul_pomorska_18_003.jpg",
+      "caption": "20190426 184325 Synagoga W Odzi Ul Pomorska 18 003"
+    },
+    {
+      "filename": "033_20190426_1_synagoga_w_odzi_ul_pomorska_18.jpg",
+      "caption": "20190426 1 Synagoga W Odzi Ul Pomorska 18"
+    },
+    {
+      "filename": "034_20190426_synagoga_w_odzi_ul_pomorska_18_002.jpg",
+      "caption": "20190426 Synagoga W Odzi Ul Pomorska 18 002"
+    },
+    {
+      "filename": "035_20190426_synagouge_pomorska_lodz_2019.jpg",
+      "caption": "20190426 Synagouge Pomorska Lodz 2019"
+    },
+    {
+      "filename": "036_20200918_205004_synagoga_gminna_w_poznaniu.jpg",
+      "caption": "20200918 205004 Synagoga Gminna W Poznaniu"
+    },
+    {
+      "filename": "037_20200918_210044_synagoga_gminna_w_poznaniu.jpg",
+      "caption": "20200918 210044 Synagoga Gminna W Poznaniu"
+    },
+    {
+      "filename": "038_bobowa_synagoga_fot_k_fidyk_mik_2014_11_2988012239.jpg",
+      "caption": "Bobowa Synagoga Fot K Fidyk Mik 2014 11 2988012239"
+    },
+    {
+      "filename": "039_bobowa_synagoga_fot_k_fidyk_mik_2014_13_2933616987.jpg",
+      "caption": "Bobowa Synagoga Fot K Fidyk Mik 2014 13 2933616987"
+    },
+    {
+      "filename": "040_bobowa_synagoga_fot_k_fidyk_mik_2014_14_2933668178.jpg",
+      "caption": "Bobowa Synagoga Fot K Fidyk Mik 2014 14 2933668178"
+    },
+    {
+      "filename": "041_bobowa_synagoga_fot_k_fidyk_mik_2014_15_2984951393.jpg",
+      "caption": "Bobowa Synagoga Fot K Fidyk Mik 2014 15 2984951393"
+    },
+    {
+      "filename": "055_synagogue_of_a_cut.jpg",
+      "caption": "Synagogue Of A Cut"
+    },
+    {
+      "filename": "056_w_odawa_wielka_synagoga_wn_trza_13.jpg",
+      "caption": "W Odawa Wielka Synagoga Wn Trza 13"
+    },
+    {
+      "filename": "057_beth_sholom_8149057986.jpg",
+      "caption": "Beth Sholom 8149057986"
+    },
+    {
+      "filename": "058_congregation_beth_elohim_interior_1.jpg",
+      "caption": "Congregation Beth Elohim Interior 1"
+    },
+    {
+      "filename": "059_congregation_beth_elohim_interior_2.jpg",
+      "caption": "Congregation Beth Elohim Interior 2"
+    },
+    {
+      "filename": "060_congregation_beth_elohim_interior_3.jpg",
+      "caption": "Congregation Beth Elohim Interior 3"
+    },
+    {
+      "filename": "061_interior_of_aloha_jewish_chapel_on_joint_base_pear.jpg",
+      "caption": "Interior Of Aloha Jewish Chapel On Joint Base Pear"
+    },
+    {
+      "filename": "062_persky_sanctuary_temple_emanuel_sinai_worcester.jpg",
+      "caption": "Persky Sanctuary Temple Emanuel Sinai Worcester"
+    },
+    {
+      "filename": "063_persky_sanctuary_temple_emanuel_sinai_worcester_ma.jpg",
+      "caption": "Persky Sanctuary Temple Emanuel Sinai Worcester Ma"
+    },
+    {
+      "filename": "064_temple_emanu_el_livingston_sanctuary.jpg",
+      "caption": "Temple Emanu El Livingston Sanctuary"
+    },
+    {
+      "filename": "065_temple_emanuel_sinai_worcester_lobby.jpg",
+      "caption": "Temple Emanuel Sinai Worcester Lobby"
+    },
+    {
+      "filename": "066_temple_emanuel_sinai_worcester_salisbury_street_19.jpg",
+      "caption": "Temple Emanuel Sinai Worcester Salisbury Street 19"
+    },
+    {
+      "filename": "067_view_from_front_mikveh_israel_synagogue.jpg",
+      "caption": "View From Front Mikveh Israel Synagogue"
+    },
+    {
+      "filename": "068_darmstadt_nova_sinagogo_anta_halo.jpg",
+      "caption": "Darmstadt Nova Sinagogo Anta Halo"
+    },
+    {
+      "filename": "069_darmstadt_nova_sinagogo_balkonejo_a.jpg",
+      "caption": "Darmstadt Nova Sinagogo Balkonejo A"
+    },
+    {
+      "filename": "070_darmstadt_nova_sinagogo_balkonejo_b.jpg",
+      "caption": "Darmstadt Nova Sinagogo Balkonejo B"
+    },
+    {
+      "filename": "071_darmstadt_nova_sinagogo_en_koridoro.jpg",
+      "caption": "Darmstadt Nova Sinagogo En Koridoro"
+    },
+    {
+      "filename": "078_synagoge_innenraum.jpg",
+      "caption": "Synagoge Innenraum"
+    },
+    {
+      "filename": "079_synagogue_in_chabad_jewish_educational_center.jpg",
+      "caption": "Synagogue In Chabad Jewish Educational Center"
+    },
+    {
+      "filename": "084_inside_ohel_yaaqov_synagogue_1938.jpg",
+      "caption": "Inside Ohel Yaaqov Synagogue 1938"
+    },
+    {
+      "filename": "085_krakow_am_see_synagogue_int.jpg",
+      "caption": "Krakow Am See Synagogue Int"
+    },
+    {
+      "filename": "086_leipzig_synagogue.jpg",
+      "caption": "Leipzig Synagogue"
+    },
+    {
+      "filename": "087_magdeburg_synagogue.jpg",
+      "caption": "Magdeburg Synagogue"
+    },
+    {
+      "filename": "088_m_nstermaifeld_ehemalige_synagoge_innenansicht.jpg",
+      "caption": "M Nstermaifeld Ehemalige Synagoge Innenansicht"
+    },
+    {
+      "filename": "089_new_synagogue_mainz_interior.jpg",
+      "caption": "New Synagogue Mainz Interior"
+    },
+    {
+      "filename": "090_synagoge_stadtschlaining_psalm19.jpg",
+      "caption": "Synagoge Stadtschlaining Psalm19"
+    },
+    {
+      "filename": "091_bucharest_choral_temple_interior_02.jpg",
+      "caption": "Bucharest Choral Temple Interior 02"
+    },
+    {
+      "filename": "092_bucharest_choral_temple_small_hall_01.jpg",
+      "caption": "Bucharest Choral Temple Small Hall 01"
+    },
+    {
+      "filename": "093_bucharest_choral_temple_small_hall_02.jpg",
+      "caption": "Bucharest Choral Temple Small Hall 02"
+    },
+    {
+      "filename": "094_cetate_synagogue_timi_oara_interior.jpg",
+      "caption": "Cetate Synagogue Timi Oara Interior"
+    },
+    {
+      "filename": "095_interior_sinagoga_din_cetate.jpg",
+      "caption": "Interior Sinagoga Din Cetate"
+    },
+    {
+      "filename": "096_maia_morgenstern_la_sinagoga_din_cetate_timi_oara.jpg",
+      "caption": "Maia Morgenstern La Sinagoga Din Cetate Timi Oara"
+    },
+    {
+      "filename": "097_sinagoga_mare.jpg",
+      "caption": "Sinagoga Mare"
+    },
+    {
+      "filename": "098_sinagoga_simleu_interior2.jpg",
+      "caption": "Sinagoga Simleu Interior2"
+    },
+    {
+      "filename": "099_tempio_maggiore_von_der_empore.jpg",
+      "caption": "Tempio Maggiore Von Der Empore"
+    },
+    {
+      "filename": "100_bayonne_synagogue_005.jpg",
+      "caption": "Bayonne Synagogue 005"
+    },
+    {
+      "filename": "101_bayonne_synagogue_007.jpg",
+      "caption": "Bayonne Synagogue 007"
+    },
+    {
+      "filename": "102_bayonne_synagogue_008.jpg",
+      "caption": "Bayonne Synagogue 008"
+    },
+    {
+      "filename": "103_enschede_synagoge_interieur.jpg",
+      "caption": "Enschede Synagoge Interieur"
+    },
+    {
+      "filename": "104_klok_aan_de_westkant_van_de_synagoge_te_arnhem_met.jpg",
+      "caption": "Klok Aan De Westkant Van De Synagoge Te Arnhem Met"
+    },
+    {
+      "filename": "105_a_complex_of_two_synagogues_in_the_baka_neighborho.jpg",
+      "caption": "A Complex Of Two Synagogues In The Baka Neighborho"
+    },
+    {
+      "filename": "106_a_sign_in_the_ohel_yitzhak_synagogue_of_jews_from.jpg",
+      "caption": "A Sign In The Ohel Yitzhak Synagogue Of Jews From"
+    },
+    {
+      "filename": "107_be_er_shmuel_synagogue_unsdorf_jerusalem.jpg",
+      "caption": "Be Er Shmuel Synagogue Unsdorf Jerusalem"
     }
   ]
 }

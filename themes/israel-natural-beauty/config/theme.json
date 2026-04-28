@@ -5,159 +5,417 @@
   "images": [
     {
       "filename": "001_makhtesh_ramon_aerial.jpg",
-      "caption": "Makhtesh Ramon · Aerial View, Negev"
+      "caption": "Makhtesh Ramon \u00b7 Aerial View, Negev",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Godot13"
     },
     {
       "filename": "002_makhtesh_ramon_crater.jpg",
-      "caption": "Makhtesh Ramon · Crater Floor, Negev"
+      "caption": "Makhtesh Ramon \u00b7 Crater Floor, Negev",
+      "license": "CC BY 2.0",
+      "attribution": "RG in TLV"
     },
     {
       "filename": "003_makhtesh_ramon_strata.jpg",
-      "caption": "Rock Strata · Makhtesh Ramon"
+      "caption": "Rock Strata \u00b7 Makhtesh Ramon",
+      "license": "Public Domain",
+      "attribution": "Adam Matan"
     },
     {
       "filename": "004_mitzpe_ramon_camel_hill.jpg",
-      "caption": "Camel Hill · Mitzpe Ramon, Negev"
+      "caption": "Camel Hill \u00b7 Mitzpe Ramon, Negev",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Hagai Agmon-Snir"
     },
     {
       "filename": "005_makhtesh_yeruham.jpg",
-      "caption": "Makhtesh Yeruham · Negev Desert"
+      "caption": "Makhtesh Yeruham \u00b7 Negev Desert",
+      "license": "CC BY 2.0",
+      "attribution": "RG TLV"
     },
     {
       "filename": "007_ein_avdat_canyon_wide.jpg",
-      "caption": "Ein Avdat Canyon · Nahal Zin, Negev"
+      "caption": "Ein Avdat Canyon \u00b7 Nahal Zin, Negev",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Zairon"
     },
     {
       "filename": "008_ein_avdat_canyon_walls.jpg",
-      "caption": "Canyon Walls · Ein Avdat, Negev Highlands"
+      "caption": "Canyon Walls \u00b7 Ein Avdat, Negev Highlands",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Zairon"
     },
     {
       "filename": "009_ein_avdat_pool.jpg",
-      "caption": "Natural Pool · Ein Avdat, Nahal Zin"
+      "caption": "Natural Pool \u00b7 Ein Avdat, Nahal Zin",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Zairon"
     },
     {
       "filename": "010_timna_valley.jpg",
-      "caption": "Timna Valley · Southern Arava"
+      "caption": "Timna Valley \u00b7 Southern Arava",
+      "license": "CC BY 3.0",
+      "attribution": "Chmee2"
     },
     {
       "filename": "011_timna_red_rocks.jpg",
-      "caption": "Red Rock Desert · Timna Park"
+      "caption": "Red Rock Desert \u00b7 Timna Park",
+      "license": "CC BY 3.0",
+      "attribution": "Chmee2"
     },
     {
       "filename": "012_timna_formations.jpg",
-      "caption": "Ancient Rock Formations · Timna Park"
+      "caption": "Ancient Rock Formations \u00b7 Timna Park",
+      "license": "CC BY 3.0",
+      "attribution": "Chmee2"
     },
     {
       "filename": "013_timna_desert_plain.jpg",
-      "caption": "Desert Plain · Timna Park, Arava"
+      "caption": "Desert Plain \u00b7 Timna Park, Arava",
+      "license": "CC BY 3.0",
+      "attribution": "Chmee2"
     },
     {
       "filename": "014_eilat_bay_red_sea.jpg",
-      "caption": "Bay of Eilat · Red Sea"
+      "caption": "Bay of Eilat \u00b7 Red Sea",
+      "license": "CC BY 2.5",
+      "attribution": "Israel Zeller"
     },
     {
       "filename": "015_dead_sea_ein_bokek.jpg",
-      "caption": "Dead Sea · Ein Bokek"
+      "caption": "Dead Sea \u00b7 Ein Bokek",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Anagoria"
     },
     {
       "filename": "016_dead_sea_shore.jpg",
-      "caption": "Dead Sea Shoreline · Judean Desert"
+      "caption": "Dead Sea Shoreline \u00b7 Judean Desert",
+      "license": "CC BY 2.0",
+      "attribution": "James Emery"
     },
     {
       "filename": "017_golan_hamat_gader.jpg",
-      "caption": "Yarmouk Valley · Hamat Gader, Golan Heights"
+      "caption": "Yarmouk Valley \u00b7 Hamat Gader, Golan Heights",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Adam Jones"
     },
     {
       "filename": "018_golan_sea_of_galilee_view.jpg",
-      "caption": "Sea of Galilee · View from Golan Heights"
+      "caption": "Sea of Galilee \u00b7 View from Golan Heights",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Adam Jones"
     },
     {
       "filename": "019_golan_plateau.jpg",
-      "caption": "Golan Heights Plateau · Northern Israel"
+      "caption": "Golan Heights Plateau \u00b7 Northern Israel",
+      "license": "CC BY 4.0",
+      "attribution": "IPPA photographer"
     },
     {
       "filename": "020_susita_galilee_view.jpg",
-      "caption": "Sea of Galilee · View from Susita"
+      "caption": "Sea of Galilee \u00b7 View from Susita",
+      "license": "CC BY 2.5",
+      "attribution": "Shlomo Roded"
     },
     {
       "filename": "021_north_kinneret_shore.jpg",
-      "caption": "Northern Shore · Sea of Galilee"
+      "caption": "Northern Shore \u00b7 Sea of Galilee",
+      "license": "CC BY 2.5",
+      "attribution": "Shlomo Roded"
     },
     {
       "filename": "022_kinneret_shoreline.jpg",
-      "caption": "Kinneret Shoreline · Sea of Galilee"
+      "caption": "Kinneret Shoreline \u00b7 Sea of Galilee",
+      "license": "CC BY 2.5",
+      "attribution": "Shlomo Roded"
     },
     {
       "filename": "023_ein_gedi_oasis.jpg",
-      "caption": "Ein Gedi Oasis · Dead Sea Region"
+      "caption": "Ein Gedi Oasis \u00b7 Dead Sea Region",
+      "license": "CC BY 3.0",
+      "attribution": "Rados\u0142aw Botev"
     },
     {
       "filename": "024_ein_gedi_national_park.jpg",
-      "caption": "Ein Gedi National Park · Judean Desert"
+      "caption": "Ein Gedi National Park \u00b7 Judean Desert",
+      "license": "CC BY 3.0",
+      "attribution": "Rados\u0142aw Botev"
     },
     {
       "filename": "025_kibbutz_ein_gedi_valley.jpg",
-      "caption": "Ein Gedi Valley · Dead Sea Cliffs"
+      "caption": "Ein Gedi Valley \u00b7 Dead Sea Cliffs",
+      "license": "CC BY 2.5",
+      "attribution": "Shlomo Roded"
     },
     {
       "filename": "026_mount_gilboa_jezreel_view.jpg",
-      "caption": "Jezreel Valley · View from Mount Gilboa"
+      "caption": "Jezreel Valley \u00b7 View from Mount Gilboa",
+      "license": "CC BY 2.5",
+      "attribution": "Davidid Vardi"
     },
     {
       "filename": "027_beit_shean_valley_fields.jpg",
-      "caption": "Agricultural Fields · Beit She'an Valley"
+      "caption": "Agricultural Fields \u00b7 Beit She'an Valley",
+      "license": "CC BY 2.5",
+      "attribution": "Davidid Vardi"
     },
     {
       "filename": "028_tirzah_valley_samaria.jpg",
-      "caption": "Nahal Tirtzah · Samaria Hills"
+      "caption": "Nahal Tirtzah \u00b7 Samaria Hills",
+      "license": "CC BY 2.5",
+      "attribution": "Shlomo Rodod"
     },
     {
       "filename": "029_pekiin_cliff_upper_galilee.jpg",
-      "caption": "Peki'in Cliffs · Upper Galilee"
+      "caption": "Peki'in Cliffs \u00b7 Upper Galilee",
+      "license": "CC BY 2.5",
+      "attribution": "Shlomo Roded"
     },
     {
       "filename": "030_pekiin_valley_landscape.jpg",
-      "caption": "Peki'in Valley · Upper Galilee Hills"
+      "caption": "Peki'in Valley \u00b7 Upper Galilee Hills",
+      "license": "CC BY 2.5",
+      "attribution": "Shlomo Roded"
     },
     {
       "filename": "031_nahal_saar_hermon_foothills.jpg",
-      "caption": "Nahal Saar · Hermon Foothills"
+      "caption": "Nahal Saar \u00b7 Hermon Foothills",
+      "license": "Public Domain",
+      "attribution": "Shlomo Rodod"
     },
     {
       "filename": "032_zikim_mediterranean_beach.jpg",
-      "caption": "Zikim Beach · Mediterranean Coast"
+      "caption": "Zikim Beach \u00b7 Mediterranean Coast",
+      "license": "CC BY 2.5",
+      "attribution": "Stav Constik"
     },
     {
       "filename": "033_dor_carmel_coast.jpg",
-      "caption": "Dor Beach · Carmel Coast"
+      "caption": "Dor Beach \u00b7 Carmel Coast",
+      "license": "CC BY 2.5",
+      "attribution": "Shlomo Rodod"
     },
     {
       "filename": "034_rosh_hanikra_aerial.jpg",
-      "caption": "Rosh HaNikra White Cliffs · Northern Coast"
+      "caption": "Rosh HaNikra White Cliffs \u00b7 Northern Coast",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Israel Photo Gallery"
     },
     {
       "filename": "035_rosh_hanikra_coast.jpg",
-      "caption": "Rosh HaNikra Coastline · Western Galilee"
+      "caption": "Rosh HaNikra Coastline \u00b7 Western Galilee",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Oren Rozen"
     },
     {
       "filename": "036_ramon_crater_view.jpg",
-      "caption": "Ramon Crater · Negev Desert"
+      "caption": "Ramon Crater \u00b7 Negev Desert",
+      "license": "Public Domain",
+      "attribution": "Tango7000"
     },
     {
       "filename": "037_susita_galilee_panorama.jpg",
-      "caption": "Galilee Panorama · Susita Summit"
+      "caption": "Galilee Panorama \u00b7 Susita Summit",
+      "license": "CC BY 2.5",
+      "attribution": "Shlomo Roded"
     },
     {
       "filename": "038_golan_heights_view.jpg",
-      "caption": "Open Landscape · Golan Heights"
+      "caption": "Open Landscape \u00b7 Golan Heights",
+      "license": "CC BY 4.0",
+      "attribution": "IPPA photographer"
     },
     {
       "filename": "039_negev_plateau_mitzpe_ramon.jpg",
-      "caption": "Negev Plateau · Mitzpe Ramon"
+      "caption": "Negev Plateau \u00b7 Mitzpe Ramon",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Hagai Agmon-Snir"
     },
     {
       "filename": "040_timna_park_landscape.jpg",
-      "caption": "Timna Park · Arava Valley, Southern Israel"
+      "caption": "Timna Park \u00b7 Arava Valley, Southern Israel",
+      "license": "CC BY 3.0",
+      "attribution": "Chmee2"
+    },
+    {
+      "filename": "040_uzrar_crataegus_aronia.jpg",
+      "caption": "Uzrar Crataegus Aronia \u00b7 Israel"
+    },
+    {
+      "filename": "041_101788_view_from_ma_ale_gilboa_pikiwiki_israel.jpg",
+      "caption": "101788 View From Ma Ale Gilboa Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "042_101789_fields_around_nir_david_pikiwiki_israel.jpg",
+      "caption": "101789 Fields Around Nir David Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "043_102868_merat_per_s_cave_site_on_the_north_road_pik.jpg",
+      "caption": "102868 Merat Per S Cave Site On The North Road Pik \u00b7 Israel"
+    },
+    {
+      "filename": "044_102869_merat_per_s_cave_site_on_the_north_road_pik.jpg",
+      "caption": "102869 Merat Per S Cave Site On The North Road Pik \u00b7 Israel"
+    },
+    {
+      "filename": "045_102870_merat_per_s_cave_site_on_the_north_road_pik.jpg",
+      "caption": "102870 Merat Per S Cave Site On The North Road Pik \u00b7 Israel"
+    },
+    {
+      "filename": "046_102871_merat_per_s_cave_site_on_the_north_road_pik.jpg",
+      "caption": "102871 Merat Per S Cave Site On The North Road Pik \u00b7 Israel"
+    },
+    {
+      "filename": "048_105634_zikim_beach_pikiwiki_israel.jpg",
+      "caption": "105634 Zikim Beach Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "049_106898_sculpting_in_the_peki_in_cliff_pikiwiki_isr.jpg",
+      "caption": "106898 Sculpting In The Peki In Cliff Pikiwiki Isr \u00b7 Israel"
+    },
+    {
+      "filename": "050_106899_sculpting_in_the_peki_in_cliff_pikiwiki_isr.jpg",
+      "caption": "106899 Sculpting In The Peki In Cliff Pikiwiki Isr \u00b7 Israel"
+    },
+    {
+      "filename": "051_106900_paki_in_landscapes_pikiwiki_israel.jpg",
+      "caption": "106900 Paki In Landscapes Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "052_107049_the_compound_of_the_church_of_messiah_from.jpg",
+      "caption": "107049 The Compound Of The Church Of Messiah From \u00b7 Israel"
+    },
+    {
+      "filename": "053_107094_views_sprout_from_susita_pikiwiki_israel.jpg",
+      "caption": "107094 Views Sprout From Susita Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "054_107098_views_sprout_from_susita_pikiwiki_israel.jpg",
+      "caption": "107098 Views Sprout From Susita Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "055_107209_the_shores_of_the_north_kinneret_in_the_yea.jpg",
+      "caption": "107209 The Shores Of The North Kinneret In The Yea \u00b7 Israel"
+    },
+    {
+      "filename": "056_107210_the_shores_of_the_north_kinneret_in_the_yea.jpg",
+      "caption": "107210 The Shores Of The North Kinneret In The Yea \u00b7 Israel"
+    },
+    {
+      "filename": "057_107211_the_shores_of_the_north_kinneret_in_the_yea.jpg",
+      "caption": "107211 The Shores Of The North Kinneret In The Yea \u00b7 Israel"
+    },
+    {
+      "filename": "058_107212_the_shores_of_the_north_kinneret_in_the_yea.jpg",
+      "caption": "107212 The Shores Of The North Kinneret In The Yea \u00b7 Israel"
+    },
+    {
+      "filename": "060_107803_eilat_bay_of_eilat_pikiwiki_israel.jpg",
+      "caption": "107803 Eilat Bay Of Eilat Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "061_107804_eilat_bay_of_eilat_pikiwiki_israel.jpg",
+      "caption": "107804 Eilat Bay Of Eilat Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "062_107805_eilat_bay_of_eilat_pikiwiki_israel.jpg",
+      "caption": "107805 Eilat Bay Of Eilat Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "063_108359_acre_pikiwiki_israel.jpg",
+      "caption": "108359 Acre Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "064_108360_acre_pikiwiki_israel.jpg",
+      "caption": "108360 Acre Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "065_108361_acre_pikiwiki_israel.jpg",
+      "caption": "108361 Acre Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "066_109257_around_the_walls_of_acre_pikiwiki_israel.jpg",
+      "caption": "109257 Around The Walls Of Acre Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "067_109258_around_the_walls_of_acre_pikiwiki_israel.jpg",
+      "caption": "109258 Around The Walls Of Acre Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "068_109262_around_the_walls_of_acre_pikiwiki_israel.jpg",
+      "caption": "109262 Around The Walls Of Acre Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "069_109263_around_the_walls_of_acre_pikiwiki_israel.jpg",
+      "caption": "109263 Around The Walls Of Acre Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "088_109360_tel_dor_feb_2024_pikiwiki_israel.jpg",
+      "caption": "109360 Tel Dor Feb 2024 Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "089_109427_an_angry_look_pikiwiki_israel.jpg",
+      "caption": "109427 An Angry Look Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "090_109483_view_from_mitzpe_hussein_pikiwiki_israel.jpg",
+      "caption": "109483 View From Mitzpe Hussein Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "091_109484_view_from_mitzpe_hussein_pikiwiki_israel.jpg",
+      "caption": "109484 View From Mitzpe Hussein Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "092_109812_ein_naboria_in_the_biryeh_forest_pikiwiki_i.jpg",
+      "caption": "109812 Ein Naboria In The Biryeh Forest Pikiwiki I \u00b7 Israel"
+    },
+    {
+      "filename": "093_109814_ein_naboria_in_the_biryeh_forest_pikiwiki_i.jpg",
+      "caption": "109814 Ein Naboria In The Biryeh Forest Pikiwiki I \u00b7 Israel"
+    },
+    {
+      "filename": "094_109816_a_view_from_the_biriya_forest_to_the_north.jpg",
+      "caption": "109816 A View From The Biriya Forest To The North \u00b7 Israel"
+    },
+    {
+      "filename": "095_110522_jordan_between_degania_and_kinneret_pikiwik.jpg",
+      "caption": "110522 Jordan Between Degania And Kinneret Pikiwik \u00b7 Israel"
+    },
+    {
+      "filename": "096_110523_jordan_between_degania_and_kinneret_pikiwik.jpg",
+      "caption": "110523 Jordan Between Degania And Kinneret Pikiwik \u00b7 Israel"
+    },
+    {
+      "filename": "097_110524_jordan_between_degania_and_kinneret_pikiwik.jpg",
+      "caption": "110524 Jordan Between Degania And Kinneret Pikiwik \u00b7 Israel"
+    },
+    {
+      "filename": "098_110685_beit_jan_halli_of_the_idf_pikiwiki_israel.jpg",
+      "caption": "110685 Beit Jan Halli Of The Idf Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "099_110687_beit_jan_halli_of_the_idf_pikiwiki_israel.jpg",
+      "caption": "110687 Beit Jan Halli Of The Idf Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "100_110688_beit_jan_halli_of_the_idf_pikiwiki_israel.jpg",
+      "caption": "110688 Beit Jan Halli Of The Idf Pikiwiki Israel \u00b7 Israel"
+    },
+    {
+      "filename": "101_.jpg",
+      "caption": " \u00b7 Israel"
+    },
+    {
+      "filename": "102_1.jpg",
+      "caption": "1 \u00b7 Israel"
+    },
+    {
+      "filename": "103_2.jpg",
+      "caption": "2 \u00b7 Israel"
+    },
+    {
+      "filename": "104_a_corner_in_the_wadi_hdr_474390523.jpg",
+      "caption": "A Corner In The Wadi Hdr 474390523 \u00b7 Israel"
     }
   ]
 }

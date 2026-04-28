@@ -38,8 +38,10 @@ sub init()
 
     for each nodeId in ["captionText", "captionShadow"]
         n = m.top.findNode(nodeId)
-        n.fontSize = fontSize
-        n.width    = maxLabelW
+        font = CreateObject("roSGNode", "Font")
+        font.size = fontSize
+        n.font  = font
+        n.width = maxLabelW
     end for
     m.captionShadow.translation = [shadowOff, shadowOff]
 
